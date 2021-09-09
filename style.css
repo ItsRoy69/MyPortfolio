@@ -41,7 +41,11 @@ section {
   margin: auto;
 }
 
-.about, .skills, .teams, .contact, footer {
+.about,
+.skills,
+.teams,
+.contact,
+footer {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -254,14 +258,14 @@ section .title::after {
   background: none;
 }
 
-.man img {
+.man__img {
   height: 400px;
-  width: 400px;
-  object-fit: fill;
-  border-radius: 6px;
-  margin-top: 20px;
+  width: 385px;
   margin-left: 140px;
-  padding-left: 100px;
+  margin-top: 20px;
+  /* object-fit: fill;
+  border-radius: 6px;
+  padding-left: 100px; */
 }
 
 /* about section styling */
@@ -463,7 +467,31 @@ section .title::after {
 }
 
 @media (max-width: 1300px) {
-  .home .man img {
+  .home {
+    height: 400px;
+    width: 400px;
+    object-fit: fill;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+}
+
+/* image responsiveness */
+@media (max-width: 425px) {
+  .man__img {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 380px;
+    right: 100px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .home {
     height: 400px;
     width: 400px;
     object-fit: fill;
