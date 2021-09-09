@@ -261,6 +261,7 @@ section .title::after {
   border-radius: 6px;
   margin-top: 20px;
   margin-left: 140px;
+  padding-left: 100px;
 }
 
 /* about section styling */
@@ -387,16 +388,11 @@ section .title::after {
   width: 50%;
 }
 
-
-
-
 /* education */
-
 .education .title::after {
   content: "academics";
   color: blueviolet;
 }
-
 
 .text-3 {
   font-size: 25px;
@@ -409,10 +405,7 @@ section .title::after {
   color: blueviolet;
 }
 
-
-
 /* engineering */
-
 .engineering .title::after {
   content: "why";
   color: blueviolet;
@@ -424,7 +417,6 @@ section .title::after {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .play-sound-btn {
@@ -436,34 +428,29 @@ section .title::after {
   text-decoration: none;
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
-
-
 }
-.play-sound-btn:hover{
 
+.play-sound-btn:hover {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
-.play-sound-btn:active{
+
+.play-sound-btn:active {
   background: blueviolet;
 }
 
-
-.sunle{
+.sunle {
   padding-left: 0px;
   text-align: center;
 }
 
-
 /* contact */
-
 .contact .title::after {
   content: "Let's get in touch";
   color: blueviolet;
 }
 
-
-.text{
+.text {
   text-align: center;
   padding-bottom: 20px;
 }
@@ -472,6 +459,19 @@ section .title::after {
 @media (max-width: 1300px) {
   .home .max-width {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .home .man img {
+    height: 400px;
+    width: 400px;
+    object-fit: fill;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
   }
 }
 
