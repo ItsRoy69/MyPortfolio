@@ -45,7 +45,7 @@ section {
 .skills,
 .teams,
 .contact,
-footer {
+.footer {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -102,7 +102,7 @@ section .title::after {
 
 .navbar.sticky {
   padding: 15px 0;
-  background: #53B8BB;
+  background: #141414;
 }
 
 .navbar .max-width {
@@ -170,7 +170,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: #53B8BB;
+  background: #141414;
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -282,7 +282,7 @@ section .title::after {
   height: 400px;
   width: 400px;
   object-fit: cover;
-  border-radius: 6px;
+  border-radius: 100%;
 }
 
 .about .about-content .right {
@@ -319,6 +319,7 @@ section .title::after {
 .about .about-content .right a img {
   width: 30px;
   display: none;
+  border-radius: 100%;
 }
 
 .about .about-content .right a:hover img {
@@ -390,6 +391,155 @@ section .title::after {
 
 .skills-content .right .machine::before {
   width: 50%;
+}
+
+/* Tech  */
+
+.tech .title::after {
+  content: "Tech Stacks I use";
+  color: blueviolet;
+}
+
+
+.tech .icon-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  background:var(--secondary-color);
+  transition: ease-in-out 0.3s;
+  padding-left: 60px
+}
+
+.tech .max-width {
+    max-width: 1500px;
+    padding: 0 50px;
+    margin: auto;
+}
+
+.tech h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+  line-height: 1;
+  font-size: 20px;
+  color: #111;
+}
+
+.tech .techbox {
+  padding: 0px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 0px;
+}
+
+@media (max-width: 412px) {
+
+  .tech .title::after {
+    position: relative;
+    display: flex;
+    flex: auto;
+    padding-left: 90px
+  }
+
+  .tech .icon-box {
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .tech .max-width {
+      max-width: 1200px;
+      padding: 0 30px;
+      margin: auto;
+  }
+
+  .tech .techbox {
+    padding: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0px;
+  }
+
+}
+
+/* Activities  */
+
+.activities .title::after {
+  content: "Events";
+  color: blueviolet;
+}
+
+.activities .grid1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.activities .workshop1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: url(images/workshop-1.jpg);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.activities .workshop2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: url(images/workshop-2.jpg);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.activities .workshop3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: url(images/workshop-3.jpg);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+
+.activities .workshop4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: url(images/workshop-4.jpg);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+
+.activities h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 /* education */
@@ -477,6 +627,18 @@ section .title::after {
     justify-content: center;
     margin: 0 auto 60px;
   }
+
+  .home .home-content .text-2 {
+    color: blueviolet;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+
+  .home .home-content .text-2:hover {
+    color: black;
+    font-size: 50px;
+  }
 }
 
 /* image responsiveness */
@@ -490,18 +652,6 @@ section .title::after {
   }
 }
 
-@media (max-width: 1300px) {
-  .home {
-    height: 400px;
-    width: 400px;
-    object-fit: fill;
-    margin-top: 20px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
-  }
-}
 
 @media (max-width: 1104px) {
   .about .about-content .left img {
@@ -520,7 +670,15 @@ section .title::after {
   .menu-btn {
     display: block;
     z-index: 999;
+
   }
+
+  .navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 140px
+}
 
   .menu-btn i.active:before {
     content: "\f00d";
@@ -528,13 +686,13 @@ section .title::after {
 
   .navbar .menu {
     position: fixed;
-    height: 100vh;
+    height: 40vh;
     width: 100%;
     left: -100%;
     top: 0;
     background: #111;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 30px;
     transition: all 0.3s ease;
   }
 
@@ -548,7 +706,7 @@ section .title::after {
 
   .navbar .menu li a {
     display: inline-block;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 25px;
   }
 
