@@ -73,7 +73,7 @@ section .title::before {
   position: absolute;
   bottom: 0px;
   left: 50%;
-  width: 180px;
+  width: 200px;
   height: 3px;
   background: #111;
   transform: translateX(-50%);
@@ -466,7 +466,7 @@ section .title::after {
 /* Activities  */
 
 .activities .title::after {
-  content: "Events";
+  content: "Trainer/Facilitator";
   color: blueviolet;
 }
 
@@ -540,6 +540,234 @@ section .title::after {
 .activities h1 {
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
+}
+
+.activities p {
+  text-align: center;
+}
+
+
+/* Projects */
+
+.projects .title::after {
+  content: "Side Projects";
+  color: blueviolet;
+}
+
+.projects .grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.projects .project1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: linear-gradient(180deg,rgba(26, 8, 75, 0.7) 0%,rgba(26, 8, 75, 0.56) 20%,rgba(26, 8, 75, 0.084) 40%,rgba(26, 8, 75, 0.49) 65.1%,rgba(26, 8, 75, 0.7) 100%),url(images/project1.png);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.projects .project2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: linear-gradient(180deg,rgba(26, 8, 75, 0.7) 0%,rgba(26, 8, 75, 0.56) 20%,rgba(26, 8, 75, 0.084) 40%,rgba(26, 8, 75, 0.49) 65.1%,rgba(26, 8, 75, 0.7) 100%),url(images/project2.png);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.projects .project3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: linear-gradient(180deg,rgba(26, 8, 75, 0.7) 0%,rgba(26, 8, 75, 0.56) 20%,rgba(26, 8, 75, 0.084) 40%,rgba(26, 8, 75, 0.49) 65.1%,rgba(26, 8, 75, 0.7) 100%),url(images/project3.png);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.projects .project4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: linear-gradient(180deg,rgba(26, 8, 75, 0.7) 0%,rgba(26, 8, 75, 0.56) 20%,rgba(26, 8, 75, 0.084) 40%,rgba(26, 8, 75, 0.49) 65.1%,rgba(26, 8, 75, 0.7) 100%),url(images/project4.png);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.projects .project5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: linear-gradient(180deg,rgba(26, 8, 75, 0.7) 0%,rgba(26, 8, 75, 0.56) 20%,rgba(26, 8, 75, 0.084) 40%,rgba(26, 8, 75, 0.49) 65.1%,rgba(26, 8, 75, 0.7) 100%),url(images/project5.png);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.projects .project6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 420px;
+  height: 258px;
+  background: linear-gradient(180deg,rgba(26, 8, 75, 0.7) 0%,rgba(26, 8, 75, 0.56) 20%,rgba(26, 8, 75, 0.084) 40%,rgba(26, 8, 75, 0.49) 65.1%,rgba(26, 8, 75, 0.7) 100%),url(images/project6.png);
+  border-radius: 12px;
+  background-size: cover;
+  margin: 5px;
+}
+
+.projects a {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 180px;
+  color: #ffff;
+}
+
+.projects .buttons {
+  padding-left: 500px
+}
+
+.projects button a {
+  font-family: 'Poppins', sans-serif;
+  color: #ffff;
+  font-size: 10px
+}
+
+
+.projects button {
+  width: 140px;
+  border: 0;
+  padding: 12px 10px;
+  outline: none;
+  color: #fff;
+  background: blueviolet;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: width 0.8s;
+}
+
+.projects button img {
+  width: 30px;
+  display: none;
+}
+
+.projects button:hover img {
+  display: block;
+}
+
+.projects button:hover {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Work */
+.work .title::after {
+  content: "Experience";
+  color: blueviolet;
+}
+
+.work h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.work h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #1C658C;
+  font-size: 18px;
+}
+
+.work li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  padding-top: 5px
+}
+
+.work .pic {
+  margin-top: 0px;
+  display: flex;
+}
+
+.work .internships {
+  display: grid;
+  grid-template-columns: 1.9fr 0.1fr;
+}
+
+.work h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  padding-bottom: 15px;
+  font-size: 15px
+}
+
+/* Freelance */
+.freelance .title::after {
+  content: "Freelancing";
+  color: blueviolet;
+}
+
+.freelance h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.freelance li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  padding-top: 5px
+}
+
+.freelance h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  padding-bottom: 15px;
+  font-size: 15px
+}
+
+.freelance .pic {
+  margin-top: 0px;
+  display: flex;
+  width: 250px;
+  height: 250px
+}
+
+.freelance .freelancing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* education */
