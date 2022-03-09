@@ -770,6 +770,51 @@ section .title::after {
   grid-template-columns: 1fr 1fr;
 }
 
+/* Awards */
+
+.awards .title::after {
+  content: "honors";
+  color: blueviolet;
+}
+
+.awards h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.awards h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #1C658C;
+  font-size: 18px;
+}
+
+.awards li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  padding-top: 5px
+}
+
+.awards .pic {
+  margin-top: 0px;
+  display: flex;
+  height: 500px;
+  width: 650px
+}
+
+.awards .honors {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+}
+
+.awards h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  padding-bottom: 15px;
+  font-size: 15px
+}
+
 /* education */
 .education .title::after {
   content: "academics";

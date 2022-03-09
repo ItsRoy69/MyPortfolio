@@ -51,7 +51,7 @@ $(document).ready(function () {
   var typed = new Typed(".typing-3", {
     strings: [
       " have passed my Class X from Meghmala Roy Education Centre !",
-      " have passed my Class XI from St.Joseph & Mary's School !",
+      " have passed my Class XII from St.Joseph & Mary's School !",
       " am graduating from University of Engineering & Management, Kolkata !",
     ],
     typeSpeed: 80,
