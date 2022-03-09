@@ -1225,7 +1225,7 @@ section .title::after {
       position: absolute;
       height: 400px;
       width: 200px;
-      top: 5100px;
+      top: 5200px;
       right: 100px;
   }
 
@@ -1262,9 +1262,9 @@ section .title::after {
   }
 
  .awards .pic {
-    height: 200px;
-    justify-content: center;
-    width: 200px;
+    height: 150px;
+    justify-content: flex-start;
+    width: 150px;
   }
 
   .awards .honors {
@@ -1275,8 +1275,8 @@ section .title::after {
   .opensource .pic{
     margin-top: 10px;
     display: flex;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     justify-content: flex-end;
   }
 
