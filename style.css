@@ -800,7 +800,7 @@ section .title::after {
   margin-top: 0px;
   display: flex;
   height: 500px;
-  width: 650px
+  justify-content: flex-end;
 }
 
 .awards .honors {
@@ -809,6 +809,53 @@ section .title::after {
 }
 
 .awards h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  padding-bottom: 15px;
+  font-size: 15px
+}
+
+/* Opensource */
+
+.opensource .title::after {
+  content: "collaborate";
+  color: blueviolet;
+}
+
+.opensource h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.opensource h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #1C658C;
+  font-size: 18px;
+}
+
+.opensource li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  padding-top: 5px
+}
+
+.opensource .pic{
+  margin-top: 0px;
+  display: flex;
+  height: 500px;
+  width: 650px;
+  justify-content: flex-end;
+
+}
+
+.opensource .opensourcing {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+}
+
+.opensource h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
   padding-bottom: 15px;
