@@ -434,7 +434,7 @@ section .title::after {
   gap: 0px;
 }
 
-@media (max-width: 412px) {
+@media (max-width: 500px) {
 
   .tech .title::after {
     position: relative;
@@ -1126,4 +1126,185 @@ section .title::after {
     font-size: 23px;
     line-height: 38px;
   }
+}
+
+@media (max-width: 500px) {
+  .activities .workshop1 {
+    width: 200px;
+    height: 158px;
+  }
+
+  .activities .workshop2 {
+    width: 200px;
+    height: 158px;
+  }
+
+  .activities .workshop3 {
+    width: 200px;
+    height: 158px;
+  }
+
+
+  .activities .workshop4 {
+    width: 200px;
+    height: 158px;
+  }
+
+
+  .activities h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+  }
+
+  .activities p {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .projects .project1 {
+    width: 200px;
+    height: 158px;
+  }
+
+  .projects .project2 {
+    width: 200px;
+    height: 158px;
+  }
+
+  .projects .project3 {
+    width: 200px;
+    height: 158px;
+  }
+
+  .projects .project4 {
+    width: 200px;
+    height: 158px;
+  }
+
+  .projects .project5 {
+    width: 200px;
+    height: 158px;
+  }
+
+  .projects .project6 {
+    width: 200px;
+    height: 158px;
+  }
+
+  .projects a {
+    padding-top: 90px;
+    text-align: center;
+  }
+
+  .projects .buttons {
+    padding-left: 120px
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .work h1 {
+    text-align: center
+  }
+
+  .work h3 {
+    text-align: center;
+  }
+
+  .work li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-top: 5px
+  }
+
+  .work .pic {
+      position: absolute;
+      height: 400px;
+      width: 200px;
+      top: 5100px;
+      right: 100px;
+  }
+
+  .work .row {
+        position: absolute;
+        top: 5500px;
+  }
+
+  .work h4 {
+    text-align: center;
+  }
+
+  .freelance .title {
+    margin-top: 1300px;
+  }
+
+  .freelance h1 {
+    text-align: center;
+  }
+
+  .freelance h4 {
+    text-align: center;
+  }
+
+  .freelance .pic{
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+  }
+
+  .freelance .freelancing {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+ .awards .pic {
+    height: 300px;
+  }
+
+  .awards .honors {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .opensource .pic{
+    margin-top: 10px;
+    display: flex;
+    height: 300px;
+    width: 350px;
+    justify-content: flex-end;
+  }
+
+  .opensource .opensourcing {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .opensource h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    padding-bottom: 15px;
+    font-size: 15px
+  }
+
+  /* education */
+  .education .title::after {
+    content: "academics";
+    color: blueviolet;
+  }
+
+  .text-3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .text-3 span {
+    color: blueviolet;
+  }
+
 }
