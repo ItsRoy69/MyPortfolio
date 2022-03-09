@@ -1262,7 +1262,9 @@ section .title::after {
   }
 
  .awards .pic {
-    height: 300px;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
   }
 
   .awards .honors {
@@ -1273,8 +1275,8 @@ section .title::after {
   .opensource .pic{
     margin-top: 10px;
     display: flex;
-    height: 300px;
-    width: 350px;
+    height: 200px;
+    width: 200px;
     justify-content: flex-end;
   }
 
