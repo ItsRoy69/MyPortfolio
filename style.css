@@ -945,19 +945,18 @@ section .title::after {
     padding-bottom: 50px;
     display: flex;
     justify-content: center;
-    margin: 0 auto 60px;
+    margin: 0 0 60px;
   }
 
   .home .home-content .text-2 {
     color: blueviolet;
-    font-size: 35px;
     font-weight: 600;
     margin-left: -3px;
   }
 
   .home .home-content .text-2:hover {
     color: black;
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -1097,7 +1096,7 @@ section .title::after {
 
 @media (max-width: 500px) {
   .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .home .home-content .text-3 {
@@ -1230,8 +1229,8 @@ section .title::after {
   }
 
   .work .row {
-        position: absolute;
-        top: 5500px;
+      position: absolute;
+      top: 5600px;
   }
 
   .work h4 {
@@ -1292,7 +1291,6 @@ section .title::after {
     font-size: 15px
   }
 
-  /* education */
   .education .title::after {
     content: "academics";
     color: blueviolet;
