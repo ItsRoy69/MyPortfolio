@@ -3,14 +3,19 @@
 
 .navbar{
   height: 10vh;
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 1vw;
 }
 
 .navbar .logo h1{
   font-family: 'Ubuntu', sans-serif;
   font-style: bold;
   font-weight: 700;
-  color: #2400FF;
+  color: #8a2be2;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
 }
 
 .navbar .logo h1:hover{
@@ -18,11 +23,35 @@
 }
 
 .navbar .logo h1 span {
-  color: yellowgreen;
+  color: #9acd32;
   transition: all 0.3s ease;
 }
 
-.navbar .max-width {
-  align-items: center;
-  justify-content: space-between;
+.navbar .menu {
+  display: flex;
+  align-items: flex-end;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  display: block;
+  color: #8a2be2;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.navbar .menu li a:hover {
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+.navbar.sticky .menu li a:hover {
+  color: blueviolet;
 }
