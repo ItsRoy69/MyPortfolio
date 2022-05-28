@@ -9,13 +9,13 @@ const Navbar = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            <h1 href="#">Portfo<span>lio.</span></h1>
-          </a>
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container-fluid">
+          <div className="navbar-brand" onClick="/">
+            <h1>Portfo<span>lio.</span></h1>
+          </div>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -27,33 +27,69 @@ const Navbar = () => {
           </button>
 
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <h4 className="nav-link active" aria-current="page" onClick="/">
                   Home
-                </a>
+                </h4>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+              <li className="nav-item">
+                <h4 className="nav-link" onClick="/">
                   About Us
-                </a>
+                </h4>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+              <li className="nav-item">
+                <h4 className="nav-link" onClick="/">
                   Skills
-                </a>
+                </h4>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+              <li className="nav-item">
+                <h4 className="nav-link" onClick={setModal}>
                   Work<BiChevronsDown />
-                </a>
+                </h4>
               </li>
+              {modal && 
+                <div className="dropdown">
+                  <div className="dropdown-content">
+                    <li className="nav-dropdown">
+                      <h4 className="nav-link" onClick="/">
+                        Internships
+                      </h4>
+                    </li>
+                    <li className="nav-dropdown">
+                      <h4 className="nav-link" onClick="/">
+                        Volunteering
+                      </h4>
+                    </li>
+                    <li className="nav-dropdown">
+                      <h4 className="nav-link" onClick="/">
+                        Opensource
+                      </h4>
+                    </li>
+                    <li className="nav-dropdown">
+                      <h4 className="nav-link" onClick="/">
+                        Achievements
+                      </h4>
+                    </li>
+                    <li className="nav-dropdown">
+                      <h4 className="nav-link" onClick="/">
+                        Projects
+                      </h4>
+                    </li>
+                    <li className="nav-dropdown">
+                      <h4 className="nav-link" onClick="/">
+                      Workshops
+                      </h4>
+                    </li>
+                  </div>  
+                </div>              
+              }
 
-              <li class="nav-item">
-                <a class="nav-link" href="/">
+              <li className="nav-item">
+                <h4 className="nav-link" onClick="/">
                   Contact
-                </a>
+                </h4>
               </li>
             </ul>
           </div>

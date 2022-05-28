@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+.navbar{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100vw;
+}
+
 .navbar h1 {
   font-family: 'Ubuntu', sans-serif;
   font-style: bold;
@@ -17,19 +22,53 @@
   transition: all 0.3s ease;
 }
 
-.nav-item a{
+.nav-item h4{
   font-family: 'Ubuntu', sans-serif;
   color: #8a2be2;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: inline-flex;
 }
 
-.nav-item a:hover {
-  color: #9acd32;
+.nav-item h4:hover {
+  color: #acd322;
 }
 
 .navbar-toggler-icon {
   color: #8a2be2 !important;
 }
 
+.dropdown{
+  width: 10vw;
+  height: 33vh;
+  position: fixed;
+  margin-top: 8vh;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  left: 80vw;
+}
+
+.nav-dropdown{
+  height: 40px;
+  border-bottom: 1px solid #B8AEAE;
+}
+
+.nav-dropdown h4{
+  font-family: 'Ubuntu', sans-serif;
+  color: #8a2be2;
+  font-size: 20px;
+  font-weight: 500;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.nav-dropdown h4:hover {
+  color: #acd322;
+}
+
+.navbar-nav{
+  margin-left: 50vw;
+}
