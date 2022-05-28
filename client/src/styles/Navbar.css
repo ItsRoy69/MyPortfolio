@@ -1,57 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-
-.navbar{
-  height: 10vh;
-  display: flex;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-top: 1vw;
-}
-
-.navbar .logo h1{
+.navbar h1 {
   font-family: 'Ubuntu', sans-serif;
   font-style: bold;
   font-weight: 700;
   color: #8a2be2;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
 }
 
-.navbar .logo h1:hover{
+.navbar h1:hover{
   color: #000000;
 }
 
-.navbar .logo h1 span {
+.navbar h1 span {
   color: #9acd32;
   transition: all 0.3s ease;
 }
 
-.navbar .menu {
-  display: flex;
-  align-items: flex-end;
-}
-
-.navbar .menu li {
-  list-style: none;
-  display: inline-block;
-}
-
-.navbar .menu li a {
-  display: block;
+.nav-item a{
+  font-family: 'Ubuntu', sans-serif;
   color: #8a2be2;
   font-size: 18px;
   font-weight: 500;
-  margin-left: 25px;
-  transition: color 0.3s ease;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.navbar .menu li a:hover {
-  color: yellowgreen;
-  text-decoration: none;
+.nav-item a:hover {
+  color: #9acd32;
 }
 
-.navbar.sticky .menu li a:hover {
-  color: blueviolet;
+.navbar-toggler-icon {
+  color: #8a2be2 !important;
 }
+

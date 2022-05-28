@@ -1,16 +1,16 @@
 import React from 'react';
 
 import Navbar from './components/Navbar';
-import About from './components/About';
-import Education from './components/Education';
-import Skills from './components/Skills';
-import Internships from './components/Internships';
-import Volunteering from './components/Volunteering';
-import Opensource from './components/Opensource';
-import Achievements from './components/Achievements';
-import Projects from './components/Projects';
-import Workshop from './components/Workshop';
-import Contact from './components/Contact';
+import About from './pages/About';
+import Education from './pages/Education';
+import Skills from './pages/Skills';
+import Internships from './pages/Internships';
+import Volunteering from './pages/Volunteering';
+import Opensource from './pages/Opensource';
+import Achievements from './pages/Achievements';
+import Projects from './pages/Projects';
+import Workshop from './pages/Workshop';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
 
