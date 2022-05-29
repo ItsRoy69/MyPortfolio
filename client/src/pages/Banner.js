@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/Banner.css";
 import Typical from 'react-typical';
 
-import people from '../assets/bannerman.png';
+import bannerimg from '../assets/bannerman.png';
 
 const Banner = () => {
   return (
@@ -28,7 +28,7 @@ const Banner = () => {
         </div>
 
         <div className="banner-image">
-          <img src={people} />
+          <img src={bannerimg} alt="bannerimg" />
         </div>
       </div>
     </>
