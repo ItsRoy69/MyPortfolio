@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router} from "react-router-dom";
 
 import Navbar from './components/Navbar';
+import Banner from './pages/Banner';
 import About from './pages/About';
 import Education from './pages/Education';
 import Skills from './pages/Skills';
@@ -20,6 +21,7 @@ const Home = () => {
     <>
       <Router>
         <Navbar />
+        <Banner />
         <About />
         <Education />
         <Skills />

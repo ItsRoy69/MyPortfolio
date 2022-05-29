@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+.navbar__middle{
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
 ul.main-menu {
   display: inline-flex;
   list-style: none;
@@ -76,16 +83,6 @@ li {
   border-radius: 12px;
 }
 
-@media (min-width:992px) { 
-  .sub__menus__arrows:hover .sub__menus{
-    display: block;
-  }
-  .sub__menus__arrows__full:hover .sub__menus{
-    display: block;
-    z-index: 1;
-  }
-}
-
 .menu-item .sub__menus  a {
   padding: 7px 0 0px 0;
   margin: -5px 27px;
@@ -97,6 +94,16 @@ li {
 
 .menu-item .sub__menus li:hover a{
   color: #9acd32 !important;
+}
+
+@media (min-width:992px) { 
+  .sub__menus__arrows:hover .sub__menus{
+    display: block;
+  }
+  .sub__menus__arrows__full:hover .sub__menus{
+    display: block;
+    z-index: 1;
+  }
 }
 
 @media(max-width:991px){
