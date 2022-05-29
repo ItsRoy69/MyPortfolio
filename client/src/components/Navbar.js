@@ -1,100 +1,80 @@
 import React, { useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { BiChevronsDown } from "react-icons/bi";
+import {NavLink, Link} from 'react-router-dom';
+import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 
 import "../styles/Navbar.css";
 
 const Navbar = () => {  
-  const [modal, setModal] = useState(false);
+    const [isMenu, setisMenu] = useState(false);
+    const [isResponsiveclose, setResponsiveclose] = useState(false);
+    const toggleClass = () => {
+      setisMenu(isMenu === false ? true : false);
+      setResponsiveclose(isResponsiveclose === false ? true : false);
+  };
+
+    let boxClass = ["main-menu menu-right menuq1"];
+    if(isMenu) {
+        boxClass.push('menuq2');
+    }else{
+        boxClass.push('');
+    }
+
+    const [isMenuSubMenu, setMenuSubMenu] = useState(false);
+      
+    const toggleSubmenu = () => {
+      setMenuSubMenu(isMenuSubMenu === false ? true : false);
+    };
+    
+    let boxClassSubMenu = ["sub__menus"];
+    if(isMenuSubMenu) {
+        boxClassSubMenu.push('sub__menus__Active');
+    }else {
+        boxClassSubMenu.push('');
+    }
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg ">
-        <div className="container-fluid">
-          <div className="navbar-brand" onClick="/">
-            <h1>Portfo<span>lio.</span></h1>
-          </div>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <FaBars />
-          </button>
+      <navbar className="navbar__middle">
+        <div className="container">
+          <div className="row">
+            <div className="navbar__middle__logo">
+              <NavLink exact activeClassName='is-active' to="/">
+                  <h1>Portfo<span>lio.</span></h1>
+              </NavLink>
+            </div>
 
+            <div className="navbar__middle__menus">
+              <nav className="main-nav " >
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <h4 className="nav-link active" aria-current="page" onClick="/">
-                  Home
-                </h4>
-              </li>
-              <li className="nav-item">
-                <h4 className="nav-link" onClick="/">
-                  About Us
-                </h4>
-              </li>
-              <li className="nav-item">
-                <h4 className="nav-link" onClick="/">
-                  Skills
-                </h4>
-              </li>
-              <li className="nav-item">
-                <h4 className="nav-link" onClick={setModal}>
-                  Work<BiChevronsDown />
-                </h4>
-              </li>
-              {modal && 
-                <div className="dropdown">
-                  <div className="dropdown-content">
-                    <li className="nav-dropdown">
-                      <h4 className="nav-link" onClick="/">
-                        Internships
-                      </h4>
-                    </li>
-                    <li className="nav-dropdown">
-                      <h4 className="nav-link" onClick="/">
-                        Volunteering
-                      </h4>
-                    </li>
-                    <li className="nav-dropdown">
-                      <h4 className="nav-link" onClick="/">
-                        Opensource
-                      </h4>
-                    </li>
-                    <li className="nav-dropdown">
-                      <h4 className="nav-link" onClick="/">
-                        Achievements
-                      </h4>
-                    </li>
-                    <li className="nav-dropdown">
-                      <h4 className="nav-link" onClick="/">
-                        Projects
-                      </h4>
-                    </li>
-                    <li className="nav-dropdown">
-                      <h4 className="nav-link" onClick="/">
-                      Workshops
-                      </h4>
-                    </li>
-                  </div>  
-                </div>              
-              }
+                {isResponsiveclose === true ? <> 
+                  <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiXCircle />   </span>
+                </> : <> 
+                  <span className="menubar__button" style={{ display: 'none' }} onClick={toggleClass} > <FiAlignRight />   </span>
+                </>}
 
-              <li className="nav-item">
-                <h4 className="nav-link" onClick="/">
-                  Contact
-                </h4>
-              </li>
-            </ul>
+                <ul className={boxClass.join(' ')}>
+                  <li  className="menu-item" >
+                    <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
+                  </li>
+                  <li className="menu-item" ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </NavLink> </li>
+                  <li className="menu-item" ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> Skills </NavLink> </li>
+                  <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Work <FiChevronDown /> </Link>
+                    <ul className={boxClassSubMenu.join(' ')} > 
+                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Internships </NavLink> </li>
+                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Volunteering </NavLink> </li>
+                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Opensource </NavLink> </li>
+                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Achievements </NavLink> </li>
+                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Projects </NavLink> </li>
+                      <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Workshops </NavLink> </li>
+                    </ul>
+                  </li>
+                  <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
+                </ul>
+              </nav>     
+            </div>       
           </div>
         </div>
-      </nav>
+      </navbar>
     </>
   )
 }

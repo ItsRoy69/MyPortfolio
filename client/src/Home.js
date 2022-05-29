@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router} from "react-router-dom";
 
 import Navbar from './components/Navbar';
 import About from './pages/About';
@@ -17,18 +18,20 @@ import Footer from './components/Footer';
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <About />
-      <Education />
-      <Skills />
-      <Internships />
-      <Volunteering />
-      <Opensource />
-      <Achievements />
-      <Projects />
-      <Workshop />
-      <Contact />
-      <Footer />
+      <Router>
+        <Navbar />
+        <About />
+        <Education />
+        <Skills />
+        <Internships />
+        <Volunteering />
+        <Opensource />
+        <Achievements />
+        <Projects />
+        <Workshop />
+        <Contact />
+        <Footer />      
+      </Router>
     </>
   )
 }
