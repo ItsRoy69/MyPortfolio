@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 .about_content{
-   align-items: center;
-   text-align: center;
-   margin-top: 5vh;
-   margin-bottom: 10vh;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .about_content .title::before{
@@ -42,15 +46,6 @@
     display: flex;
 }
 
-.about-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    margin-top: 5rem;
-}
-
 .about-content h2 {
     font-family: 'Ubuntu';
     font-style: normal;
@@ -60,8 +55,7 @@
 }
 
 .about-text{
-  color: #8a2be2;
-
+    color: #8a2be2;
 }
 
 .about-content p {
@@ -201,6 +195,5 @@
         font-size: 14px;
         line-height: 24px;
     }   
-
 
 }

@@ -7,7 +7,7 @@ import Typical from 'react-typical';
 const About = () => {
   return (
     <>
-      <div className="about">
+      <div className="about" id='aboutme'>
         <div className="about_content">
           <h1 className="title">A little about me</h1>
         </div> 
@@ -15,7 +15,7 @@ const About = () => {
             <div className="about_pic">
               <img src={aboutimg} alt="aboutimg"/>
             </div>
-            <div className="about_padding" id="home">
+            <div className="about_padding">
               <div className="about-content">              
                 <h2>Hi! 👋 I'm Jyotirmoy and I'm a{' '}
                   <Typical 
