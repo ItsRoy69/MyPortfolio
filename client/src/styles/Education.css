@@ -32,13 +32,13 @@
     font-weight: 500;
     content: "academics";
     color: #8a2be2;
-    bottom: 0;
+    position: absolute;
+    bottom: 20px;
     left: 50%;
     font-size: 20px;
     padding: 0 5px;
-    background: #fff;
+    background-color: #fff;
     transform: translateX(-50%);
-    position:absolute;
     top: 191vh;
 }
 
@@ -72,7 +72,6 @@
     font-weight: 700;
     font-size: 26px;
     color: #000000;
-    font-size: 25px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -126,6 +125,7 @@
 @media screen and (max-width: 1050px) {
     .education_details {
         flex-direction: column;
+        margin-top: 5vh;
     }
 
     .education_content{
@@ -139,35 +139,54 @@
         display: flex;
         flex: auto;
         margin-top: -5vh;
+        top: 40px;
     }
 
      .education_content .title::before{
          display: none;
      }
 
-     .education_pic {
-        width: 100%;
-        justify-content: center;
-        margin-left: -6%;
+     .college h3{
+        font-size: 18px;
     }
 
-     .education_pic img {
-        width:50%;
-        height: auto;
+    .college h2{
+        font-size: 12px;  
+        line-height: 25px;
     }
+
+    .college span{
+        font-size: 16px;
+    }  
+
+     .education_pic img{
+        justify-content: center;
+        width: 20vw;
+        height: 60%;
+    }     
 
     .education-content {
         margin-top: 0rem;
+        width: 60%;
     }
 
-    .education-content h2 {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 75px;
+    .education_details {        
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-left: -6vw;
     }
 
-    .education-content h4{
+    .engineer_pic img{
+        width: auto;
+        height: 20vh;
+        margin-left: -6vw;
+    }
+
+    .engineer h2{
+        font-weight: 500;
         font-size: 20px;
+        line-height: 23px;
     }
 
     .button{
@@ -177,34 +196,15 @@
 }
 
 @media screen and (max-width: 650px) {
-    .education-content h1 {
-        font-size: 48px;
-        line-height: 60px;
-    }
 
-    .education-content p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .education_content .title::before{
-        content: "";
-        position: absolute;
-        transform: translateX(-50%);
-        bottom: 120px;
-     }
-
+    
 }
 
 @media screen and (max-width: 490px) {
     .education-content h1 {
         font-size: 36px;
-        line-height: 48px;
     }
 
-    .education-content p {
-        font-size: 14px;
-        line-height: 24px;
-    }   
+     
 
 }
