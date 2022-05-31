@@ -57,6 +57,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 50vw;
+    height: 80vh
 }
 
 .internships-techthree{
@@ -99,6 +100,10 @@
     width: 60px;
 }
 
+.internship-about{
+    height: 100vh
+}
+
 .internships_head h3{
     font-family: 'Ubuntu';
     font-style: normal;
@@ -131,4 +136,77 @@
     font-weight: 300;
 }
 
+
+@media screen and (max-width: 1050px) {
+    
+    .internships_content{
+        margin-bottom: 0vh;
+        width: 100%;
+     }
+
+    .internships_content h1::after{    
+        width: 100px;
+        position: relative;
+        display: flex;
+        flex: auto;
+        margin-top: -5vh;
+        top: 40px;
+        transform: translateX(-25%);
+        margin-left: 0;
+    }
+
+    .internships_content h1::before{
+         display: none;
+     }
+
+     .internships_details {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+     }
+
+     .internships-techcontent_box{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+    }
+    
+    .internships-techcontent_box img{
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .internships-techcontent{
+        width: 50vw;
+        height: 50vh
+    }
+
+    .interships-box{
+        width: 80vw;
+        margin-left: -10vw;
+    }
+
+    .internships-year h3{
+        font-size: 15px;
+    }
+
+    .internships_head h3{
+        font-size: 15px;
+    }
+    
+    .internships_head h4{
+        font-size: 14px;
+    }
+    
+    .internships_head p{        
+        font-size: 14px;
+    }
+    
+    .internships_body p{
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+}
 
