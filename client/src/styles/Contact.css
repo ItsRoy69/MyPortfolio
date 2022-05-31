@@ -2,6 +2,7 @@
 
 .contact{
     background-color: #EDF2F8;
+    height: 115vh;
 }
 
 .contact_content{
@@ -34,7 +35,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    content: "work";
+    content: "Let’s get in touch";
     color: #8a2be2;
     position: absolute;
     bottom: -40px;
@@ -43,5 +44,236 @@
     padding: 0 5px;
     background: #fff;
     transform: translateY(870vh);
-    margin-left: -2vw;
+    margin-left: -6.1vw;
 }
+
+.contact_box1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact_mail{
+    width: 300px;
+    background-color: #fff;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.contact_mail img{
+    width: 50px;
+    height: 50px;
+}
+
+.contact_mail p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    color: #6b7688;
+    padding-top: 6px;
+}
+
+.contact_twitter{
+    width: 300px;
+    background-color: #fff;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.contact_twitter img{
+    width: 50px;
+    height: 40px;
+}
+
+.contact_twitter p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    color: #6b7688;
+    padding-top: 8px;
+}
+
+.contact_box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+.contact_linkedin{
+    width: 300px;
+    background-color: #fff;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.contact_linkedin img{
+    width: 40px;
+    height: 40px;
+}
+
+.contact_linkedin p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    color: #6b7688;
+    padding-top: 18px;
+}
+
+.contact_box3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact_name input{
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    outline: none;
+    padding: 0.95rem;
+    width: 600px;
+    margin-bottom: 2vh;
+}
+
+.contact_name p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    color: #6b7688;
+    padding-top: 18px;
+}
+
+.contact_mailid input{
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    outline: none;
+    padding: 0.95rem;
+    width: 600px;
+    margin-bottom: 2vh;
+}
+
+.contact_mailid p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    color: #6b7688;
+    padding-top: 18px;
+}
+
+.contact_message textarea{
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    outline: none;
+    padding: 0.95rem;
+    width: 600px;
+    margin-bottom: 2vh;
+    height: 186px;
+}
+
+.contact_message p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    color: #6b7688;
+    padding-top: 18px;
+    height: 170px;
+}
+
+.contact_box3 button{
+    background-color: #313bac;
+    border: none;
+    border-radius: 10px;
+    color: #EDF2F8;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    outline: none;
+    padding: 1rem 2rem;
+    width: 170px;
+    margin-bottom: 2vh;
+}
+
+.contact_box3 button:hover{
+    background-color: #3843B6;
+}
+
+@media screen and (max-width: 1050px) {
+    .contact{
+        height: 50%;
+    }
+    
+    .contact_content{
+        margin-bottom: 5vh;
+        width: 100vw;
+     }
+
+    .contact_content h1::after{    
+        width: 170px;
+        position: relative;
+        display: flex;
+        flex: auto;
+        margin-top: -5vh;
+        top: 40px;
+        transform: translateX(-50%);
+        margin-left: 0;
+    }
+
+    .contact_content h1::before{
+         display: none;
+     }
+
+    .contact_details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_mail, .contact_twitter, .contact_linkedin{
+        width: 250px;
+    }
+
+    .contact_mail img, .contact_twitter img, .contact_linkedin img{
+        width: -50%;
+        height: auto;
+    }
+
+    .contact_mail p, .contact_twitter p, .contact_linkedin p{
+        font-size: 12px;
+    }
+
+    .contact_box3{
+        width: 100vw;
+    }
+
+    
+    .contact_name, .contact_mailid, .contact_message{
+        width: 70%;
+    }
+
+    .contact_name input, .contact_mailid input, .contact_message textarea{
+        width: 100%;
+    }
+ }

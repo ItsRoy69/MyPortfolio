@@ -1,0 +1,14 @@
+.footer{
+    text-align: center;
+    background-color: #3843B6;
+    align-items: cover;
+    height: 4vh;
+}
+
+.footer h4{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    color: #EDF2F8;
+    font-size: 15px;
+}

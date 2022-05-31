@@ -8,7 +8,7 @@ import workshop3 from '../assets/workshop1.png';
 const Workshop = () => {
   return (
     <>
-      <div className="workshop" id='workshop'>
+      <div className="workshop" id='workshops'>
         <div className="workshop_content">
           <h1 className="title">Workshop</h1>
         </div> 
