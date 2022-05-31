@@ -1,9 +1,66 @@
-import React from 'react'
+import React from 'react';
+import "../styles/Volunteering.css";
+
+import volunteer1 from '../assets/volunteer.png';
+
 
 const Volunteering = () => {
   return (
     <>
-      Volunteering
+      <div className="volunteering" id='volunteering'>
+        <div className="volunteering_content">
+          <h1 className="title">Volunteering</h1>
+        </div> 
+        <div className="volunteering_details">  
+          <div className="volunteering-techcontent">
+            <div className="volunteering-techthree">
+              <div className="volunteering-techcontent_box">
+                <img src={volunteer1} alt="volunteer1" />
+              </div> 
+            </div>
+          </div>     
+          <div className="volunteering-names">
+            <div className='volunteering-box'>
+              <div className='volunteering-year'>
+                <h3>2022</h3>
+              </div>
+              <div className='volunteering-about'>
+                <div className='volunteering-officedetails'>
+                  <div className="volunteering_head">
+                    <h3>Fullstack Developer</h3>
+                    <h4>UEM-IEM Cyclothon</h4>
+                    <p>Feb 2022</p>
+                  </div>
+                  <div className="volunteering_body">
+                    <p>• Built the official website of this event using ReactJS and CSS.</p>
+                    <p>• Worked on the Frontend part.</p>
+                    <p>• Site is live here.</p>
+                  </div>
+                </div>                
+              </div>
+            </div>
+            <div className='volunteering-box'>
+              <div className='volunteering-year'>
+                <h3>2021</h3>
+              </div>
+              <div className='volunteering-about'>
+                <div className='volunteering-officedetails'>
+                  <div className="volunteering_head">
+                    <h3>Web Master</h3>
+                    <h4>UEM Kolkata ACM Student Chapter</h4>
+                    <p>Nov 2021 - Present</p>
+                  </div>
+                  <div className="volunteering_body">
+                    <p>• Working as a full-stack developer with React, MongoDB, NodeJS, ExpressJS.</p>
+                    <p>• Building the official website which will be used by thousands of students.</p>
+                    <p>• Added new features, improved styles,worked on the UI.</p>
+                  </div>
+                </div>                
+              </div>
+            </div>
+          </div>    
+        </div>
+      </div>
     </>
   )
 }

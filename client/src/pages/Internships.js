@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/Internships.css";
 
-
 import techstack1 from '../assets/techstack1.png';
 import techstack2 from '../assets/techstack2.png';
 import techstack3 from '../assets/techstack3.png';

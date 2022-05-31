@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.volunteering_content{
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.volunteering h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 200px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    top: 500vh;
+ }
+
+.volunteering h1::after{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    content: "social-work";
+    color: #8a2be2;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    font-size: 20px;
+    padding: 0 5px;
+    background-color: #fff;
+    transform: translateY(405vh);
+    margin-left: -4vw;
+}
+
+.volunteering_details{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.volunteering-techcontent_box img{
+    width: 40vw;
+    margin-left: 5vw;
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.volunteering-techcontent{
+    width: 50vw;
+    height: 50vh
+}
+
+.volunteering-year h3{
+    color: #2400FF;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    width: 60px;
+}
+
+.volunteering-box{
+    flex-direction: row;
+    display: flex;
+}
+
+.volunteering_head h3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.volunteering_head h4{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1C658C;
+}
+
+.volunteering_head p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+    color: #2400FF;
+}
+
+.volunteering_body p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.volunteering-names{
+    width: 60vw;
+}
