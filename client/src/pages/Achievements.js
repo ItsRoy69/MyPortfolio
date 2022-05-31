@@ -1,9 +1,90 @@
-import React from 'react'
+import React from 'react';
+import "../styles/Achievements.css";
+
+import achievements from '../assets/achievements.png';
 
 const Achievements = () => {
   return (
     <>
-      Achievements
+      <div className="achievements" id='achievements'>
+        <div className="achievements_content">
+          <h1 className="title">Achievements</h1>
+        </div> 
+        <div className="achievements_details">                
+          <div className="achievements-names">
+            <div className='achievements-box'>
+              <div className='achievements-year'>
+                <h3>2021</h3>
+              </div>
+              <div className='achievements-about'>
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Sister Nivedity University</h3>
+                    <h4>Got 3rd prize in Hackathon in DecHack,2021</h4>
+                    <p>Dec 15 - 19, 2021</p>
+                  </div>
+                </div> 
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Commudle</h3>
+                    <h4>Winner of Share Your Build contest by Commudle,2021</h4>
+                    <p>Nov 2021</p>
+                  </div>
+                </div>                
+              </div>
+            </div>
+            <div className='achievements-box'>
+              <div className='achievements-year'>
+                <h3>2022</h3>
+              </div>
+              <div className='achievements-about'>
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Institute of Engineering & Management, Kolkata</h3>
+                    <h4>Got 1st prize in Hackathon in IemHacks,2022</h4>
+                    <p>April 16 - 17, 2022</p>
+                  </div>
+                </div>  
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Presidency University, Kolkata</h3>
+                    <h4>Got 2nd prize in Game Jam in Milieu,2022</h4>
+                    <p>May 16 - 17, 2022</p>
+                  </div>
+                </div> 
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>University of Engineering & Management, Kolkata</h3>
+                    <h4>Got 2nd prize in Hackathon in Ureckathon,2022</h4>
+                    <p>April 2 - 3, 2022</p>
+                  </div>
+                </div> 
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Sister Nivedity University</h3>
+                    <h4>Most Creative Use of GitHub in Hackathon in Hack4Bengal,2022</h4>
+                    <p>April 8 - 10, 2022</p>
+                  </div>
+                </div>
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>NIT-Hamirpur</h3>
+                    <h4>Top 6th Prize In Vividhata: A Blend of Ideas,2022</h4>
+                    <p>Jan 2 - 4, 2022</p>
+                  </div>
+                </div>            
+              </div>              
+            </div>
+          </div>
+          <div className="achievements-techcontent">
+            <div className="achievements-techthree">
+              <div className="achievements-techcontent_box">
+                <img src={achievements} alt="achievements" />
+              </div> 
+            </div>
+          </div>     
+        </div>
+      </div>
     </>
   )
 }

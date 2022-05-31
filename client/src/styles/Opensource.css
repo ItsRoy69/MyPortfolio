@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+.opensource{
+    background-color: #EDF2F8;
+}
+
 .opensource_content{
     align-items: center;
     text-align: center;
