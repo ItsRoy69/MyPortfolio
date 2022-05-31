@@ -54,11 +54,6 @@
     filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
 }
 
-.volunteering-techcontent{
-    width: 50vw;
-    height: 50vh
-}
-
 .volunteering-year h3{
     color: #2400FF;
     font-family: 'Ubuntu';
@@ -109,3 +104,65 @@
 .volunteering-names{
     width: 60vw;
 }
+
+@media screen and (max-width: 1050px) {
+    
+    .volunteering_content{
+        margin-bottom: 0vh;
+        width: 100%;
+     }
+
+    .volunteering_content h1::after{    
+        width: 120px;
+        position: relative;
+        display: flex;
+        flex: auto;
+        margin-top: -5vh;
+        top: 40px;
+        transform: translateX(-50%);
+        margin-left: 0;
+    }
+
+    .volunteering_content h1::before{
+         display: none;
+     }
+
+     .volunteering_details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+     }
+
+    .volunteering-techcontent_box{
+        width: 50vw;
+        text-align: center;
+    }
+
+    .volunteering-techcontent_box img{
+        width: 50vw;
+        height: 50%;
+        margin-top: 10px;
+    }
+    
+    .volunteering-year h3{
+        font-size: 15px;
+    }
+
+    .volunteering_head h3{
+        font-size: 15px;
+    }
+    
+    .volunteering_head h4{
+        font-size: 14px;
+    }
+    
+    .volunteering_head p{        
+        font-size: 14px;
+    }
+    
+    .volunteering_body p{
+        font-weight: 300;
+        font-size: 12px;
+    }
+ }

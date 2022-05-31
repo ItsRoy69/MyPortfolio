@@ -136,7 +136,6 @@
     font-weight: 300;
 }
 
-
 @media screen and (max-width: 1050px) {
     
     .internships_content{
@@ -157,15 +156,15 @@
 
     .internships_content h1::before{
          display: none;
-     }
+    }
 
-     .internships_details {
+    .internships_details {
         align-items: center;
         flex-direction: column;
         display: flex;
-     }
+    }
 
-     .internships-techcontent_box{
+    .internships-techcontent_box{
         width: 40px;
         height: 40px;
         text-align: center;
@@ -208,5 +207,8 @@
         font-size: 12px;
     }
 
+    .internship-about{
+        height: 80%;
+    }
 }
 
