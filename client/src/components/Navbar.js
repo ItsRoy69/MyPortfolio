@@ -61,14 +61,14 @@ const Navbar = () => {
                   <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Work <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} > 
                       <li><a onClick={toggleClass} activeClassName='is-active' href="#internships"> Internships </a> </li>
-                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Volunteering </a> </li>
-                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Opensource </a> </li>
-                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Achievements </a> </li>
-                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Projects </a> </li>
-                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Workshops </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#volunteering"> Volunteering </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#opensource"> Opensource </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#achievements"> Achievements </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#projects"> Projects </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#workshops"> Workshops </a> </li>
                     </ul>
                   </li>
-                  <li className="menu-item " ><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Contact </a> </li>
+                  <li className="menu-item " ><a onClick={toggleClass} activeClassName='is-active' href="#contact"> Contact </a> </li>
                 </ul>
               </nav>     
             </div>       
