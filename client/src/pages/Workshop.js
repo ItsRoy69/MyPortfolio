@@ -2,8 +2,8 @@ import React from 'react';
 import "../styles/Workshop.css";
 
 import workshop1 from '../assets/workshop1.png';
-import workshop2 from '../assets/workshop1.png';
-import workshop3 from '../assets/workshop1.png';
+import workshop2 from '../assets/workshop2.jpg';
+import workshop3 from '../assets/workshop4.jpg';
 
 const Workshop = () => {
   return (
@@ -25,7 +25,7 @@ const Workshop = () => {
                 <p>Conducted an Android Development workshop under ACM UEMk with 70+ members. </p>                
               </div> 
               <div className="workshop_box_linkbody"> 
-                <a className='linkbody' href='www./google.com'>More...</a>               
+                <a className='linkbody' href='https://twitter.com/itsmeroy69/status/1512672939157733378'>More...</a>               
               </div>               
             </div>  
             <div className="workshop_box">
@@ -39,7 +39,7 @@ const Workshop = () => {
                 <p>Organized a 3 hour long offline workshop on Web, Git, GitHub and Open source. </p>
               </div> 
               <div className="workshop_box_linkbody"> 
-                <a className='linkbody' href='www./google.com'>More... </a>               
+                <a className='linkbody' href='https://twitter.com/itsmeroy69/status/1500391027965763586'>More... </a>               
               </div> 
             </div>
             <div className="workshop_box">
@@ -50,10 +50,10 @@ const Workshop = () => {
                 <h4>JAM Event</h4>
               </div>
               <div className="workshop_box_contentbody"> 
-                <p>Taking Web-Development Workshop at University Of Engineering & Management, Kolkata. </p>
+                <p>Taking online Web-Development Workshop at University Of Engineering & Management, Kolkata. </p>
               </div>  
               <div className="workshop_box_linkbody"> 
-                <a className='linkbody' href='www./google.com'>More... </a>               
+                <a className='linkbody' href='https://twitter.com/itsmeroy69/status/1489307031286599682'>More... </a>               
               </div>
             </div> 
                         

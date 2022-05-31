@@ -145,19 +145,19 @@
     
     
     .internships_content{
-        margin-bottom: 0vh;
+        margin-bottom: 2vh;
         width: 100%;
      }
 
     .internships_content h1::after{    
-        width: 60px;
+        width: 55px;
         position: relative;
         display: flex;
         flex: auto;
         margin-top: -5vh;
         top: 40px;
         transform: translateX(-25%);
-        margin-left: 0;
+        margin-left: -2vw;
     }
 
     .internships_content h1::before{

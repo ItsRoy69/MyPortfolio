@@ -1,10 +1,15 @@
 import React from 'react';
+import useSound from 'use-sound';
 import "../styles/Education.css";
 
 import education1 from '../assets/education1.png';
 import education2 from '../assets/education2.png';
+import audio from '../assets/audio.mp3';
 
-const Education = () => {
+import { Button } from '@mui/material';
+
+const Education = () => {  
+  const [play] = useSound(audio);
 
   return (
     <>
@@ -38,7 +43,7 @@ const Education = () => {
             <div className="engineer-content"> 
               <div className="engineer">
                 <h2>Why Engineering ?</h2>
-                <div className='button' type="button"><h3>Listen</h3></div>
+                <div className='button' type="button" onClick={play}><h3>Listen</h3></div>
               </div>
             </div>                    
          </div>

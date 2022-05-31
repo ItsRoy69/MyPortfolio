@@ -94,9 +94,9 @@
 
 .button{
     background-color: #000;
-    border-radius: 3px;
+    border-radius: 15px;
     width: 80px;
-    height: 40px;
+    height: 35px;
     border: 3px solid #2400FF;
     text-align: center;
     margin-top: 5vh;
@@ -113,7 +113,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    cursor: pointer;
+    cursor: pointer;  
 }
 
 @media screen and (max-width: 1050px) {

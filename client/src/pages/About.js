@@ -33,9 +33,9 @@ const About = () => {
                 </h2>
                 <p>I am a B.tech undergrad in Computer Science from University of Engineering and Management, Kolkata who is interested in Web Development, UI/UX Design, and Coding.</p>                           
                 <h4>Thanks for visiting my website!</h4>
-                <div  type="button" className='button' onClick="/">
+                <a type="button" className='button' href="https://linktr.ee/roy69" style={{textDecoration: 'none'}}>
                   <h3>CV</h3>
-                </div>
+                </a>
               </div>            
             </div>            
          </div>

@@ -17,17 +17,17 @@ const Contact = () => {
           <div className="contact_box1">
             <div className="contact_mail">
               <img src={contact1} alt="" />
-              <p>jyotirmoyroy649@gmail.com</p>
+              <p><a href="mailto:jyotirmoyroy649@gmail.com">jyotirmoyroy649@gmail.com</a></p>
             </div>
             <div className="contact_twitter">
-              <img src={contact2} alt="" />
-              <p>itsmeroy69</p>
+              <img src={contact2} alt="twitter" />
+              <p><a href="https://twitter.com/itsmeroy69">itsmeroy69</a></p>
             </div>
           </div>
           <div className="contact_box2">
             <div className="contact_linkedin">
               <img src={contact3} alt="" />
-              <p>jyotirmoyroy69</p>
+              <p><a href="https://www.linkedin.com/in/jyotirmoyroy69/">jyotirmoyroy69</a></p>
             </div>
           </div> 
           <div className="contact_box3">
@@ -40,7 +40,9 @@ const Contact = () => {
             <div className="contact_message">
               <textarea className="p-text" type="text" placeholder="Your Message" name="message"></textarea>
             </div>
-            <button type="button" class="p-text">Send Message</button>
+            <a href="mailto:jyotirmoyroy649@gmail.com">
+              <button type="button" class="p-text">Send Message</button>
+            </a>            
           </div>
         </div>
       </div>
