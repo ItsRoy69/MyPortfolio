@@ -9,7 +9,7 @@ import skills4 from '../assets/skills4.png';
 const Skills = () => {
   return (
     <>
-      <div className="skills">
+      <div className="skills" id='skills'>
         <div className="skills_content">
           <h1 className="title">Skills</h1>
         </div> 

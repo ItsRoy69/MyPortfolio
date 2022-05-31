@@ -20,11 +20,11 @@ const Education = () => {
               </div>
               <div className="college">
                 <h2>2018 - 2020</h2>
-                <h3><span>Class XII </span> - St.Joseph /& Mary's School,New Alipore</h3>
+                <h3><span>Class XII </span> - St.Joseph & Mary's School,New Alipore</h3>
               </div>
               <div className="college">
                 <h2>2020 - Present</h2>
-                <h3><span>B.Tech in CSE  </span> - University Of Engineering And Management Kolkata</h3>
+                <h3><span>B.Tech in CSE  </span> - University Of Engineering & Management Kolkata</h3>
               </div>        
             </div> 
             <div className="education_pic">

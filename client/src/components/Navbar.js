@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {NavLink, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {FiAlignRight,FiXCircle,FiChevronDown } from "react-icons/fi";
 
 import "../styles/Navbar.css";
@@ -38,9 +38,9 @@ const Navbar = () => {
         <div className="container">
           <div className="row">
             <div className="navbar__middle__logo">
-              <NavLink exact activeClassName='is-active' to="/">
+              <a href="#home">
                   <h1>Portfo<span>lio.</span></h1>
-              </NavLink>
+              </a>
             </div>
 
             <div className="navbar__middle__menus">
@@ -54,21 +54,21 @@ const Navbar = () => {
 
                 <ul className={boxClass.join(' ')}>
                   <li  className="menu-item" >
-                    <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
+                    <a exact activeClassName='is-active' onClick={toggleClass} href="#home"> Home </a> 
                   </li>
                   <li className="menu-item" ><a onClick={toggleClass} activeClassName='is-active' href="#aboutme">About</a> </li>
-                  <li className="menu-item" ><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Skills </a> </li>
+                  <li className="menu-item" ><a onClick={toggleClass} activeClassName='is-active' href="#skills"> Skills </a> </li>
                   <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Work <FiChevronDown /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} > 
-                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Internships </NavLink> </li>
-                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Volunteering </NavLink> </li>
-                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Opensource </NavLink> </li>
-                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Achievements </NavLink> </li>
-                      <li><NavLink onClick={toggleClass} activeClassName='is-active'  to={`/Online`}> Projects </NavLink> </li>
-                      <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Offline`}> Workshops </NavLink> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#internships"> Internships </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Volunteering </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Opensource </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Achievements </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Projects </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Workshops </a> </li>
                     </ul>
                   </li>
-                  <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/Contact`}> Contact </NavLink> </li>
+                  <li className="menu-item " ><a onClick={toggleClass} activeClassName='is-active' href="#aboutme"> Contact </a> </li>
                 </ul>
               </nav>     
             </div>       
