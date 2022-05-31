@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.projects_content{
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.projects h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 200px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    top: 827vh;
+ }
+
+.projects h1::after{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    content: "side hustles";
+    color: #8a2be2;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    font-size: 20px;
+    padding: 0 5px;
+    background-color: #fff;
+    transform: translateY(732vh);
+    margin-left: -4.5vw;
+}
+
+.projects_boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects_box{
+    width: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.projects_box_content{
+    text-align: center;
+}
+
+.projects_box_content img{
+    width: 150px;    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+    height: 85px;
+}
+
+.projects_box_contenthead{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.projects_box_contenthead h4{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.projects_box_contentbody{
+    text-align: center;
+}
+
+.projects_box_buttonbody{
+    text-align: center;
+}
+
+.projects_box .button{
+    background-color: #2400ffba;
+    color: #fff;
+    border-radius: 3px;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 3vh;
+}
+
+.projects_box .button:hover{
+    background-color: #1909A0;
+}
+
+.projects_box_contentbody p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1050px) {
+    .projects_details {
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+
+    .projects_content{
+        margin-bottom: 0vh;
+        width: 100%;
+    }
+
+    .projects_content .title::after{    
+        width: 130px;
+        position: relative;
+        display: flex;
+        flex: auto;
+        margin-top: -5vh;
+        top: 40px;
+        transform: translateX(-50%);
+        margin-left: 0;
+    }
+
+    .projects_content .title::before{
+        display: none;
+    }
+
+    .projects_box{
+        margin-bottom: 5vh;  
+    }
+
+}
