@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 .workshop{
-    background-color: #EDF2F8;
+    height: 70vh;
 }
 
 .workshop_content{
@@ -20,14 +20,14 @@
     position: absolute;
     bottom: -30px;
     left: 50%;
-    width: 200px;
+    width: 250px;
     height: 3px;
     background: #111;
     transform: translateX(-50%);
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 827vh;
+    top: 898vh;
  }
 
 .workshop h1::after{
@@ -42,8 +42,8 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(732vh);
-    margin-left: -4.5vw;
+    transform: translateY(803vh);
+    margin-left: -7vw;
 }
 
 .workshop_boxes{
@@ -99,14 +99,20 @@
 }
 
 .workshop_box_linkbody{
-    text-align: center;
+    text-align: center;    
 }
 
 .workshop_box_linkbody a{
     text-decoration: none;
+    color: #1400FF;
 }
 
 @media screen and (max-width: 1050px) {
+
+    .workshop{
+        height: 50%;
+    }
+
     .workshop_details {
         flex-direction: column;
         margin-top: 5vh;

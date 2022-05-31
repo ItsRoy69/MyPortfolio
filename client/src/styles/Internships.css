@@ -2,6 +2,7 @@
 
 .internships{
     background-color: #EDF2F8;
+    height: 120vh;
 }
 
 .internships_content{
@@ -27,7 +28,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 377vh;
+    top: 374vh;
  }
 
 .internships h1::after{
@@ -37,12 +38,12 @@
     content: "work";
     color: #8a2be2;
     position: absolute;
-    bottom: 20px;
+    bottom: -40px;
     left: 50%;
     font-size: 20px;
     padding: 0 5px;
-    background-color: #fff;
-    transform: translateY(282vh);
+    background: #fff;
+    transform: translateY(270vh);
     margin-left: -2vw;
 }
 
@@ -70,8 +71,8 @@
     width: 70px;
     height: 70px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(315deg, rgba(255, 255, 255, 0.8) 15.68%, rgba(189, 198, 210, 0) 88.32%);
     border-radius: 100%;
+    background-color: #fff;
     text-align: center;
 }
 
@@ -137,6 +138,11 @@
 }
 
 @media screen and (max-width: 1050px) {
+
+    .internships{
+        height: 50%;
+    }
+    
     
     .internships_content{
         margin-bottom: 0vh;
@@ -144,7 +150,7 @@
      }
 
     .internships_content h1::after{    
-        width: 100px;
+        width: 60px;
         position: relative;
         display: flex;
         flex: auto;

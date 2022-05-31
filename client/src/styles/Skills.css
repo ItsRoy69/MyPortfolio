@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+.skills{
+    height: 55vh;
+}
+
 .skills_content{
     align-items: center;
     text-align: center;
@@ -23,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 318vh;
+    top: 314vh;
  }
 
 .skills h1::after{
@@ -33,13 +37,13 @@
     content: "what I know";
     color: #8a2be2;
     position: absolute;
-    bottom: 20px;
+    bottom: -40px;
     left: 50%;
     font-size: 20px;
     padding: 0 5px;
-    background-color: #fff;
-    transform: translateY(223vh);
-    margin-left: -4.5vw;
+    background: #fff;
+    transform: translateY(210vh);
+    margin-left: -4vw;
 }
 
 
@@ -90,6 +94,11 @@
 }
 
 @media screen and (max-width: 1050px) {
+
+    .skills{
+        height: 50%;
+    }
+    
     .skills_details {
         flex-direction: column;
         margin-top: 5vh;

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+.contact{
+    background-color: #EDF2F8;
+}
+
+.contact_content{
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contact h1::before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    width: 200px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    top: 974vh;
+ }
+
+.contact h1::after{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    content: "work";
+    color: #8a2be2;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    font-size: 20px;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateY(870vh);
+    margin-left: -2vw;
+}

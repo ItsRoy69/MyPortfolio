@@ -2,6 +2,7 @@
 
 .education{
     background-color: #EDF2F8;
+    height: 120vh;
 }
 .education_content{
     align-items: center;
@@ -11,10 +12,10 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.education h1::before{
+.education_content .title::before{
     content: "";
     position: absolute;
     bottom: -30px;
@@ -26,22 +27,22 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 193vh;
+    top: 188vh;
  }
 
-.education h1::after{
+.education_content .title::after{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
     content: "academics";
     color: #8a2be2;
     position: absolute;
-    bottom: 20px;
+    bottom: -40px;
     left: 50%;
     font-size: 20px;
     padding: 0 5px;
-    background-color: #fff;
-    transform: translateY(98vh);
+    background: #fff;
+    transform: translateY(84vh);
     margin-left: -4vw;
 }
 
@@ -127,6 +128,10 @@
 }
 
 @media screen and (max-width: 1050px) {
+
+    .education{
+        height: 50%;
+    }
     .education_details {
         flex-direction: column;
         margin-top: 5vh;

@@ -1,8 +1,6 @@
 import React from 'react';
 import "../styles/Workshop.css";
 
-import { AiOutlineArrowRight } from "react-icons/ai";
-
 import workshop1 from '../assets/workshop1.png';
 import workshop2 from '../assets/workshop1.png';
 import workshop3 from '../assets/workshop1.png';

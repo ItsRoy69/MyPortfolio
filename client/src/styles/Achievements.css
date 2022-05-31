@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+.achievements{
+    height: 130vh;
+}
+
 .achievements_content{
     align-items: center;
     text-align: center;
@@ -23,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 695vh;
+    top: 698vh;
  }
 
 .achievements h1::after{
@@ -38,8 +42,8 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(600vh);
-    margin-left: -2.6vw;
+    transform: translateY(603vh);
+    margin-left: -3vw;
 }
 
 
@@ -102,10 +106,14 @@
 }
 
 @media screen and (max-width: 1050px) {
+
+    .achievements{
+        height: 50%;
+    }
     
     .achievements_content{
         margin-bottom: 0vh;
-        width: 100%;
+        width: 100vw;
      }
 
     .achievements_content h1::after{    
@@ -128,6 +136,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 80px;
+        width: 100vw;
      }
 
     .achievements-techcontent_box{

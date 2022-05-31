@@ -2,6 +2,7 @@
 
 .opensource{
     background-color: #EDF2F8;
+    height: 110vh;
 }
 
 .opensource_content{
@@ -27,7 +28,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 588vh;
+    top: 584vh;
  }
 
 .opensource h1::after{
@@ -42,7 +43,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(492.5vh);
+    transform: translateY(489vh);
     margin-left: -5vw;
 }
 
@@ -110,14 +111,17 @@
 }
 
 @media screen and (max-width: 1050px) {
+
+    .opensource{
+        height: 40%;
+    }
     
     .opensource_content{
         margin-bottom: 0vh;
-        width: 100%;
      }
 
     .opensource_content h1::after{    
-        width: 120px;
+        width: 140px;
         position: relative;
         display: flex;
         flex: auto;
