@@ -2,7 +2,7 @@
 
 .projects{
     background-color: #EDF2F8;
-    height: 60vh;
+    height: 100vh;
 }
 
 .projects_content{
@@ -52,6 +52,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 5vh;
 }
 
 .projects_box{

@@ -6,8 +6,6 @@ import education1 from '../assets/education1.png';
 import education2 from '../assets/education2.png';
 import audio from '../assets/audio.mp3';
 
-import { Button } from '@mui/material';
-
 const Education = () => {  
   const [play] = useSound(audio);
 
