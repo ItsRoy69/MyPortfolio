@@ -5,6 +5,7 @@ import skills1 from '../assets/skills1.png';
 import skills2 from '../assets/skills2.png';
 import skills3 from '../assets/skills3.png';
 import skills4 from '../assets/skills4.png';
+import skills5 from '../assets/skills5.jpg';
 
 const Skills = () => {
   return (
@@ -58,7 +59,18 @@ const Skills = () => {
               <div className="skills_box_contentbody"> 
                 <p>I build products using blochain technologies.</p>
               </div>  
-            </div>                  
+            </div>    
+            <div className="skills_box">
+              <div className="skills_box_content">
+                <img src={skills5} alt="skills5" />
+              </div> 
+              <div className="skills_box_contenthead"> 
+                <h4>Technical Writer</h4>
+              </div>
+              <div className="skills_box_contentbody"> 
+                <p>I write technical blogs on different platforms.</p>
+              </div>  
+            </div>              
           </div>
         </div>
       </div>
