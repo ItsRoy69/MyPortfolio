@@ -63,6 +63,7 @@ const Navbar = () => {
                       <li><a onClick={toggleClass} activeClassName='is-active' href="#internships"> Internships </a> </li>
                       <li><a onClick={toggleClass} activeClassName='is-active' href="#volunteering"> Volunteering </a> </li>
                       <li><a onClick={toggleClass} activeClassName='is-active' href="#opensource"> Opensource </a> </li>
+                      <li><a onClick={toggleClass} activeClassName='is-active' href="#blogs"> Blogs </a> </li>
                       <li><a onClick={toggleClass} activeClassName='is-active' href="#achievements"> Achievements </a> </li>
                       <li><a onClick={toggleClass} activeClassName='is-active' href="#projects"> Projects </a> </li>
                       <li><a onClick={toggleClass} activeClassName='is-active' href="#workshops"> Workshops </a> </li>
