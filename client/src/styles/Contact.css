@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 .contact{
-    background-color: #EDF2F8;
     height: 115vh;
 }
 
@@ -28,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 1014vh;
+    top: 1098vh;
  }
 
 .contact h1::after{
@@ -43,7 +42,7 @@
     font-size: 20px;
     padding: 0 5px;
     background: #fff;
-    transform: translateY(910vh);
+    transform: translateY(994vh);
     margin-left: -6.1vw;
 }
 
@@ -65,6 +64,7 @@
     padding: 1rem;
     align-items: center;
     margin: 1rem 0;
+    background-color: #EDF2F8;
 }
 
 .contact_mail img{
@@ -92,6 +92,7 @@
     padding: 1rem;
     align-items: center;
     margin: 1rem 0;
+    background-color: #EDF2F8;
 }
 
 .contact_twitter img{
@@ -130,6 +131,7 @@
     padding: 1rem;
     align-items: center;
     margin: 1rem 0;
+    background-color: #EDF2F8;
 }
 
 .contact_linkedin img{
@@ -155,7 +157,7 @@
 .contact_name input{
     border: none;
     border-radius: 7px;
-    background-color: #fff;
+    background-color: #EDF2F8;
     outline: none;
     padding: 0.95rem;
     width: 600px;
@@ -173,7 +175,7 @@
 .contact_mailid input{
     border: none;
     border-radius: 7px;
-    background-color: #fff;
+    background-color: #EDF2F8;
     outline: none;
     padding: 0.95rem;
     width: 600px;
@@ -191,7 +193,7 @@
 .contact_message textarea{
     border: none;
     border-radius: 7px;
-    background-color: #fff;
+    background-color: #EDF2F8;
     outline: none;
     padding: 0.95rem;
     width: 600px;

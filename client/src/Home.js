@@ -9,6 +9,7 @@ import Skills from './pages/Skills';
 import Internships from './pages/Internships';
 import Volunteering from './pages/Volunteering';
 import Opensource from './pages/Opensource';
+import Blogs from './pages/Blogs';
 import Achievements from './pages/Achievements';
 import Projects from './pages/Projects';
 import Workshop from './pages/Workshop';
@@ -28,6 +29,7 @@ const Home = () => {
         <Internships />
         <Volunteering />
         <Opensource />
+        <Blogs />
         <Achievements />
         <Projects />
         <Workshop />
