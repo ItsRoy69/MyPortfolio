@@ -52,8 +52,7 @@ const Blogs = () => {
                  <div className="blogs_body">
                     <p>I've listed few figma plugins that a designer can use to make their life easier when designing.</p>
                  </div>
-               </div>             
-              </div>
+               </div>
             </div>            
           </div>    
         </div>
