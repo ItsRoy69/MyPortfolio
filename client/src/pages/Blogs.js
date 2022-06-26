@@ -44,6 +44,16 @@ const Blogs = () => {
                   </div>
                 </div>             
               </div>
+              <div className='blogs-officedetails'>
+                 <div className="blogs_head">
+                   <h3>Figma Plugins For Designers</h3>
+                   <p>26th June, 2022</p>
+                 </div>
+                 <div className="blogs_body">
+                    <p>I've listed few figma plugins that a designer can use to make their life easier when designing.</p>
+                 </div>
+               </div>             
+              </div>
             </div>            
           </div>    
         </div>
