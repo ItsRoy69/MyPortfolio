@@ -5,6 +5,9 @@ import "../styles/Contact.css";
 import contact1 from '../assets/contact1.png';
 import contact2 from '../assets/contact2.png';
 import contact3 from '../assets/contact3.png';
+import contact4 from '../assets/contact4.png';
+import contact5 from "../assets/contact5.png";
+import contact6 from "../assets/contact6.png";
 
 const Contact = () => {
   return (
@@ -23,11 +26,23 @@ const Contact = () => {
               <img src={contact2} alt="twitter" />
               <p><a href="https://twitter.com/itsmeroy69">itsmeroy69</a></p>
             </div>
+            <div className="contact_twitter">
+              <img src={contact4} alt="twitter" />
+              <p><a href="https://github.com/ItsRoy69">ItsRoy69</a></p>
+            </div>
           </div>
           <div className="contact_box2">
             <div className="contact_linkedin">
               <img src={contact3} alt="" />
               <p><a href="https://www.linkedin.com/in/jyotirmoyroy69/">jyotirmoyroy69</a></p>
+            </div>
+            <div className="contact_linkedin">
+              <img src={contact5} alt="" />
+              <p><a href="https://hashnode.com/@ItsRoy69">ItsRoy69</a></p>
+            </div>
+            <div className="contact_linkedin">
+              <img src={contact6} alt="" />
+              <p><a href="https://medium.com/@ItsRoy69">ItsRoy69</a></p>
             </div>
           </div> 
           <div className="contact_box3">

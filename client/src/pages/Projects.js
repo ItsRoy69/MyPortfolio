@@ -104,7 +104,22 @@ const Projects = () => {
               <div className="projects_box_buttonbody"> 
                 <Button className='button' href="https://github.com/ItsRoy69/messenger">Link{" "}<AiOutlineArrowRight /></Button>               
               </div>               
-            </div>         
+            </div>  
+
+            <div className="projects_box">
+              <div className="projects_box_content">
+                <img src={projects2} alt="projects1" />
+              </div> 
+              <div className="projects_box_contenthead"> 
+                <h4>Ashray</h4>
+              </div>
+              <div className="projects_box_contentbody"> 
+                <p>Website using React focusing on helping NGOs. </p>                
+              </div> 
+              <div className="projects_box_buttonbody"> 
+                <Button className='button' href="https://github.com/ItsRoy69/messenger">Link{" "}<AiOutlineArrowRight /></Button>               
+              </div>               
+            </div>       
           </div>
         </div>
       </div>

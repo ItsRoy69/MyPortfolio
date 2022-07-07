@@ -11,28 +11,7 @@ const Achievements = () => {
           <h1 className="title">Achievements</h1>
         </div> 
         <div className="achievements_details">                
-          <div className="achievements-names">
-            <div className='achievements-box'>
-              <div className='achievements-year'>
-                <h3>2021</h3>
-              </div>
-              <div className='achievements-about'>
-                <div className='achievements-officedetails'>
-                  <div className="achievements_head">
-                    <h3>Sister Nivedity University</h3>
-                    <h4>Got 3rd prize in Hackathon in DecHack,2021</h4>
-                    <p>Dec 15 - 19, 2021</p>
-                  </div>
-                </div> 
-                <div className='achievements-officedetails'>
-                  <div className="achievements_head">
-                    <h3>Commudle</h3>
-                    <h4>Winner of Share Your Build contest by Commudle,2021</h4>
-                    <p>Nov 2021</p>
-                  </div>
-                </div>                
-              </div>
-            </div>
+          <div className="achievements-names">            
             <div className='achievements-box'>
               <div className='achievements-year'>
                 <h3>2022</h3>
@@ -40,11 +19,11 @@ const Achievements = () => {
               <div className='achievements-about'>
                 <div className='achievements-officedetails'>
                   <div className="achievements_head">
-                    <h3>Institute of Engineering & Management, Kolkata</h3>
-                    <h4>Got 1st prize in Hackathon in IemHacks,2022</h4>
-                    <p>April 16 - 17, 2022</p>
+                    <h3>NIT Mizoram</h3>
+                    <h4>1st Prize In Web/App Hackathon ,2022</h4>
+                    <p>June 18 - 19, 2022</p>
                   </div>
-                </div>  
+                </div> 
                 <div className='achievements-officedetails'>
                   <div className="achievements_head">
                     <h3>Presidency University, Kolkata</h3>
@@ -52,6 +31,13 @@ const Achievements = () => {
                     <p>May 16 - 17, 2022</p>
                   </div>
                 </div> 
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Institute of Engineering & Management, Kolkata</h3>
+                    <h4>Got 1st prize in Hackathon in IemHacks,2022</h4>
+                    <p>April 16 - 17, 2022</p>
+                  </div>
+                </div>                  
                 <div className='achievements-officedetails'>
                   <div className="achievements_head">
                     <h3>University of Engineering & Management, Kolkata</h3>
@@ -75,6 +61,29 @@ const Achievements = () => {
                 </div>            
               </div>              
             </div>
+
+            <div className='achievements-box'>
+              <div className='achievements-year'>
+                <h3>2021</h3>
+              </div>
+              <div className='achievements-about'>
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Sister Nivedity University</h3>
+                    <h4>Got 3rd prize in Hackathon in DecHack,2021</h4>
+                    <p>Dec 15 - 19, 2021</p>
+                  </div>
+                </div> 
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Commudle</h3>
+                    <h4>Winner of Share Your Build contest by Commudle,2021</h4>
+                    <p>Nov 2021</p>
+                  </div>
+                </div>                
+              </div>
+            </div>
+
           </div>
           <div className="achievements-techcontent">
             <div className="achievements-techthree">

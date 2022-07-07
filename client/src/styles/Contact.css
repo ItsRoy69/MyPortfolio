@@ -27,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 1098vh;
+    top: 1120vh;
  }
 
 .contact h1::after{
@@ -42,7 +42,7 @@
     font-size: 20px;
     padding: 0 5px;
     background: #fff;
-    transform: translateY(994vh);
+    transform: translateY(1016vh);
     margin-left: -6.1vw;
 }
 
@@ -113,11 +113,12 @@
     color: #6b7688;
 }
 
-.contact_box2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contact_box2{    
     padding-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .contact_linkedin{

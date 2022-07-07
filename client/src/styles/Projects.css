@@ -27,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 920vh;
+    top: 940vh;
  }
 
 .projects h1::after{
@@ -42,7 +42,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(825vh);
+    transform: translateY(845vh);
     margin-left: -4.5vw;
 }
 
