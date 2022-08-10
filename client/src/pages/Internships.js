@@ -96,8 +96,8 @@ const Internships = () => {
                     <p>Jan 2022 - May 2022</p>
                   </div>
                   <div className="internships_body">
-                    <p>• Built the official website of this company using MERN.</p>
-                    <p>• Server side code, storing details into database, handling validations.</p>
+                    <p>• Worked on existing components in official website to add new features and for maintenance as well as wrote new components from scratch which is used by 10,000+ users everyday.</p>
+                    <p>• h other 3 departments including backend developers, product managers, and UX designers to enhance the user interface and accessibility.</p>
                     <p>• Worked on API Development for managing all the Master Data for Team Members Portal.</p>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ const Internships = () => {
                     <p>Jan 2022 -  Mar 2022</p>
                   </div>
                   <div className="internships_body">
-                    <p>• Building a bank transaction website using MERN from scratch.</p>
+                    <p>• Coded a bank transaction website using MERN from scratch.</p>
                     <p>• Written Clean Code, Increased Code coverage, Maintained Cognitive Complexity of the project.</p>
                     <p>• During this provisional period, Jyotirmoy has worked on the mentioned technology stack and some projects of several Service area sectors.</p>
                   </div>
@@ -120,7 +120,8 @@ const Internships = () => {
                     <p>Jan 2022 - Apr 2022</p>
                   </div>
                   <div className="internships_body">
-                    <p>• Building a fullstack website using Microsoft Azure.</p>
+                    <p>• Developed a fullstack Diabetes Prediction website using Microsoft Azure.</p>
+                    <p>• Used a techstacks like Kaggle, Flask and Python to execute the desired website.</p>
                     <p>• Clean Code focusing more on Frontend Technologies.</p>
                   </div>
                 </div>
