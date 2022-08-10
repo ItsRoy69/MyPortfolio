@@ -28,7 +28,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 783vh;
+    top: 800vh;
  }
 
 .achievements h1::after{
@@ -43,7 +43,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(688vh);
+    transform: translateY(705vh);
     margin-left: -3vw;
 }
 

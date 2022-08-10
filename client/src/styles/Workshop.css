@@ -28,7 +28,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 1045vh;
+    top: 1060vh;
  }
 
 .workshop h1::after{
@@ -43,7 +43,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(950vh);
+    transform: translateY(965vh);
     margin-left: -7vw;
 }
 
