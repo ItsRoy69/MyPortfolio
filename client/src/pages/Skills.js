@@ -57,7 +57,7 @@ const Skills = () => {
                 <h4>Blockchain</h4>
               </div>
               <div className="skills_box_contentbody"> 
-                <p>I build products using blochain technologies.</p>
+                <p>I build products using blockchain technologies.</p>
               </div>  
             </div>    
             <div className="skills_box">
