@@ -27,7 +27,7 @@ const About = () => {
                       'UI/UX Designer', 1000,
                       'Freelancer', 1000,
                       'Coder', 1000,
-
+                      'Community Manager', 1000,
                     ]}  
                   />  
                 </h2>
