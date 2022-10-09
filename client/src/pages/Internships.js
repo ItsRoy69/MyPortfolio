@@ -89,30 +89,37 @@ const Internships = () => {
                 <h3>2022</h3>
               </div>
               <div className='internship-about'>
+
+              <div className='internships-officedetails'>
+                  <div className="internships_head">
+                    <h3>Software Engineer Intern</h3>
+                    <h4>Sckilled</h4>
+                    <p>Aug 2022 - Present</p>
+                  </div>
+                  <div className="internships_body">
+                    <p>• Working on reframing the official website with more features to meet industry and company standards for SEO and accessibility which is visited by 100+ students.</p>
+                    <p>• Maintaining graphic standards and branding throughout the product’s interfaces.</p>
+                    <p>• Pair programmed with 3 engineers, and reviewed team’s code to provide additional perspective and catch previously missed errors.</p>
+                  </div>
+                </div>
+
                 <div className='internships-officedetails'>
                   <div className="internships_head">
-                    <h3>Backend Developer Intern</h3>
+                    <h3>Software Developer Intern</h3>
                     <h4>Confederation of Global Innovators - CGI</h4>
                     <p>Jan 2022 - May 2022</p>
                   </div>
                   <div className="internships_body">
                     <p>• Worked on existing components in official website to add new features and for maintenance as well as wrote new components from scratch which is used by 10,000+ users everyday.</p>
-                    <p>• h other 3 departments including backend developers, product managers, and UX designers to enhance the user interface and accessibility.</p>
+                    <p>• Led development team of 5 to create GitHub pages, allowing customer repositories to be hosted directly.</p>
                     <p>• Worked on API Development for managing all the Master Data for Team Members Portal.</p>
+                    <p>• Mentored 8 new junior front-end developers on team in expanding JavaScript, React, and Angular skillset.</p>
+                    <p>• Coordinated with other 3 departments including backend developers, product managers, and UX designers to enhance the user interface and accessibility.</p>
+                    <p>• Led bi-weekly stand-up to ensure team worked effectively, using coaching strategies to increase efficiency by 10%.</p>
+                                     
                   </div>
                 </div>
-                <div className='internships-officedetails'>
-                  <div className="internships_head">
-                    <h3>Fullstack Developer Intern</h3>
-                    <h4>The Sparks Foundation</h4>
-                    <p>Jan 2022 -  Mar 2022</p>
-                  </div>
-                  <div className="internships_body">
-                    <p>• Coded a bank transaction website using MERN from scratch.</p>
-                    <p>• Written Clean Code, Increased Code coverage, Maintained Cognitive Complexity of the project.</p>
-                    <p>• During this provisional period, Jyotirmoy has worked on the mentioned technology stack and some projects of several Service area sectors.</p>
-                  </div>
-                </div>
+                
                 <div className='internships-officedetails'>
                   <div className="internships_head">
                     <h3>FRT Intern</h3>
@@ -122,9 +129,24 @@ const Internships = () => {
                   <div className="internships_body">
                     <p>• Developed a fullstack Diabetes Prediction website using Microsoft Azure.</p>
                     <p>• Used a techstacks like Kaggle, Flask and Python to execute the desired website.</p>
+                    <p>• Tested the healthcare issue and implemented in the website from scratch.</p>
                     <p>• Clean Code focusing more on Frontend Technologies.</p>
                   </div>
                 </div>
+
+                <div className='internships-officedetails'>
+                  <div className="internships_head">
+                    <h3>Fullstack Developer Intern</h3>
+                    <h4>The Sparks Foundation</h4>
+                    <p>Jan 2022 -  Mar 2022</p>
+                  </div>
+                  <div className="internships_body">
+                    <p>• Developed the bank transaction site using the techstacks mentioned from scratch.</p>
+                    <p>• Written Clean Code, Increased Code coverage, Maintained Cognitive Complexity of the project.</p>
+                    <p>• Coded on the mentioned technology stack and some projects of several Service area sectors.</p>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>    

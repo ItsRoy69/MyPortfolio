@@ -34,9 +34,23 @@ const Volunteering = () => {
                   <div className="volunteering_body">
                     <p>• Built the official website of this event using ReactJS and CSS.</p>
                     <p>• Worked on the Frontend part.</p>
-                    <p>• Site is live here.</p>
+                    <p>• Site is live <a href='https://uemcyclothon.uem.edu.in/'>here</a>.</p>
                   </div>
-                </div>                
+                </div>   
+
+                <div className='volunteering-officedetails'>
+                  <div className="volunteering_head">
+                    <h3>Student Coordinator</h3>
+                    <h4>Google Developer Student Club UEMK</h4>
+                    <p>Aug 2022 - Present</p>
+                  </div>
+                  <div className="volunteering_body">
+                    <p>• Instructed 250+ students of multiple batches to reinforce learning concepts on "Web Development" through workshop.</p>
+                    <p>• Taught 150+ students about Git & GitHub.</p>
+                    <p>• Organizing workshops and technical events in collaboration with different colleges.</p>
+                  </div>
+                </div> 
+
               </div>
             </div>
             <div className='volunteering-box'>
@@ -54,6 +68,7 @@ const Volunteering = () => {
                     <p>• Working as a full-stack developer with React, MongoDB, NodeJS, ExpressJS.</p>
                     <p>• Building the official website which will be used by thousands of students.</p>
                     <p>• Added new features, improved styles,worked on the UI.</p>
+                    <p>• Conducting Technical Workshops at UEM, Kolkata with 200+ attendees.</p>
                   </div>
                 </div>                
               </div>

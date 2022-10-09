@@ -17,6 +17,28 @@ const Achievements = () => {
                 <h3>2022</h3>
               </div>
               <div className='achievements-about'>
+
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>NIT Rourkela</h3>
+                    <h4>1st Prize In HackOdisha 2.0 for use of Twilio</h4>
+                    <p>Sep 10 - 11, 2022</p>
+                  </div>
+                </div>
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Microsoft</h3>
+                    <h4>Got selected as Microsoft Learn Student Ambassador among 100,000 registrations around the world</h4>
+                    <p>Aug 10, 2022</p>
+                  </div>
+                </div>
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
+                    <h3>Google</h3>
+                    <h4>Got selected as the GDSC UEMK Coordinator (2022-23)</h4>
+                    <p>Aug 20, 2022</p>
+                  </div>
+                </div>
                 <div className='achievements-officedetails'>
                   <div className="achievements_head">
                     <h3>NIT Mizoram</h3>

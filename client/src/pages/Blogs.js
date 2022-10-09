@@ -34,7 +34,8 @@ const Blogs = () => {
                   <div className="blogs_body">
                     <p><a href="https://medium.com/@ItsRoy69/all-about-hackathons-67260c45394d" style={{textDecoration: "none", color: '#000000'}}>In this blog I've talked about all thew prerequisites of Hackathons.</a></p>                    
                   </div>
-                </div>   
+                </div>  
+
                 <div className='blogs-officedetails'>
                   <div className="blogs_head">
                     <h3><a href="https://hashnode.com/post/how-to-make-ghost-buster-game-in-pygame-cl4715qtf02e782nve8m099i4" style={{textDecoration: "none", color: '#000000'}}>How to make Ghost Buster Game in Pygame?</a></h3>
@@ -44,6 +45,7 @@ const Blogs = () => {
                     <p><a href="https://hashnode.com/post/how-to-make-ghost-buster-game-in-pygame-cl4715qtf02e782nve8m099i4" style={{textDecoration: "none", color: '#000000'}}>I've talked about how to make a game using Pygame.</a></p>
                   </div>
                 </div>  
+
                 <div className='blogs-officedetails'>
                  <div className="blogs_head">
                    <h3><a href="https://medium.com/@ItsRoy69/figma-plugins-for-designers-d2e6e2a35962" style={{textDecoration: "none", color: '#000000'}}>Figma Plugins For Designers</a></h3>
@@ -52,7 +54,28 @@ const Blogs = () => {
                  <div className="blogs_body">
                     <p><a href="https://medium.com/@ItsRoy69/figma-plugins-for-designers-d2e6e2a35962" style={{textDecoration: "none", color: '#000000'}}>I've listed few figma plugins that a designer can use to make their life easier when designing.</a></p>
                  </div>
-               </div>           
+                </div> 
+
+                <div className='blogs-officedetails'>
+                 <div className="blogs_head">
+                   <h3><a href="https://medium.com/@ItsRoy69/ethereum-2-0-2a7c09f75ef5" style={{textDecoration: "none", color: '#000000'}}>ETHEREUM 2.0-The MERGE?</a></h3>
+                   <p>13th Sept, 2022</p>
+                 </div>
+                 <div className="blogs_body">
+                    <p><a href="https://medium.com/@ItsRoy69/ethereum-2-0-2a7c09f75ef5" style={{textDecoration: "none", color: '#000000'}}>I've lexplained what Merge is.</a></p>
+                 </div>
+                </div> 
+
+                <div className='blogs-officedetails'>
+                 <div className="blogs_head">
+                   <h3><a href="https://medium.com/@ItsRoy69/demystifying-dark-side-of-web3-0-45dc542bdff1" style={{textDecoration: "none", color: '#000000'}}>Demystifying dark side of web3.0</a></h3>
+                   <p>21st Sept, 2022</p>
+                 </div>
+                 <div className="blogs_body">
+                    <p><a href="https://medium.com/@ItsRoy69/demystifying-dark-side-of-web3-0-45dc542bdff1" style={{textDecoration: "none", color: '#000000'}}>I've talked about all the dark sides of web3.</a></p>
+                 </div>
+                </div>                 
+
               </div>              
             </div>            
           </div>    
