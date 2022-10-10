@@ -122,7 +122,7 @@ const Internships = () => {
                 
                 <div className='internships-officedetails'>
                   <div className="internships_head">
-                    <h3>FRT Intern</h3>
+                    <h3>Project Intern</h3>
                     <h4>Microsoft</h4>
                     <p>Jan 2022 - Apr 2022</p>
                   </div>
