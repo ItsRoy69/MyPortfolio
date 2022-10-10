@@ -27,6 +27,13 @@ const Achievements = () => {
                 </div>
                 <div className='achievements-officedetails'>
                   <div className="achievements_head">
+                    <h3>University of Engineering & Management, Kolkata</h3>
+                    <h4>Vice Chancellor's Award for Best Techno Wiz, 2022</h4>
+                    <p>Aug 30, 2022</p>
+                  </div>
+                </div>
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
                     <h3>Microsoft</h3>
                     <h4>Got selected as Microsoft Learn Student Ambassador among 100,000 registrations around the world</h4>
                     <p>Aug 10, 2022</p>
