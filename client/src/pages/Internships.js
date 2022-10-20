@@ -16,7 +16,9 @@ import techstack12 from '../assets/techstack12.png';
 import techstack13 from '../assets/techstack13.png';
 import techstack14 from '../assets/techstack14.png';
 import techstack15 from '../assets/techstack15.png';
-
+import techstack15 from '../assets/techstack16.png';
+import techstack15 from '../assets/techstack17.png';
+import techstack15 from '../assets/techstack18.png';
 
 const Internships = () => {
   return (
@@ -80,6 +82,17 @@ const Internships = () => {
               </div>
               <div className="internships-techcontent_box">
                 <img src={techstack15} alt="techstack15" />
+              </div>
+            </div>
+            <div className="internships-techthree">
+              <div className="internships-techcontent_box">
+                <img src={techstack16} alt="techstack16" />
+              </div> 
+              <div className="internships-techcontent_box">
+                <img src={techstack17} alt="techstack17" />
+              </div>
+              <div className="internships-techcontent_box">
+                <img src={techstack18} alt="techstack18" />
               </div>
             </div>
           </div>     
