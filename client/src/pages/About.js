@@ -33,7 +33,7 @@ const About = () => {
                 </h2>
                 <p>I am a B.tech undergrad in Computer Science from University of Engineering and Management, Kolkata who is interested in Web Development, UI/UX Design, and Coding.</p>                           
                 <h4>Thanks for visiting my website!</h4>
-                <a type="button" className='button' href="https://linktr.ee/roy69" style={{textDecoration: 'none'}}>
+                <a type="button" className='button' href="https://drive.google.com/file/d/1Of3pXg5oxLWYPIgs47V0n_qXAtfaFP_S/view?usp=drivesdk" style={{textDecoration: 'none'}}>
                   <h3>CV</h3>
                 </a>
               </div>            
