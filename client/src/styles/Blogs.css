@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 .blogs{
-    height: 100vh;
+    height: 110vh;
 }
 
 .blogs_content{
@@ -27,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top:830vh;
+    top:920vh;
  }
 
 .blogs h1::after{
@@ -42,7 +42,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(735vh);
+    transform: translateY(825vh);
     margin-left: -4vw;
 }
 

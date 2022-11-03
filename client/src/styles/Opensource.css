@@ -2,7 +2,7 @@
 
 .opensource{
     background-color: #EDF2F8;
-    height: 110vh;
+    height: 125vh;
 }
 
 .opensource_content{
@@ -28,7 +28,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 715vh;
+    top: 790vh;
  }
 
 .opensource h1::after{
@@ -43,7 +43,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(620vh);
+    transform: translateY(695vh);
     margin-left: -5vw;
 }
 

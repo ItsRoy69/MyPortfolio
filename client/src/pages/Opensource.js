@@ -12,29 +12,23 @@ const Opensource = () => {
         </div> 
         <div className="opensource_details">                
           <div className="opensource-names">
-            <div className='opensource-box'>
-              <div className='opensource-year'>
-                <h3>2021</h3>
-              </div>
-              <div className='opensource-about'>
-                <div className='opensource-officedetails'>
-                  <div className="opensource_head">
-                    <h3>HacktoberFest</h3>
-                    <h4>Opensource Contributor of HacktoberFest</h4>
-                    <p>Oct 01 - Nov 01, 2021</p>
-                  </div>
-                  <div className="opensource_body">
-                    <p>• Successfully made 12 PRs to web applications in Hacktoberfest 2021.</p>
-                    <p>• Established universal search functionality.</p>
-                  </div>
-                </div>                
-              </div>
-            </div>
+            
             <div className='opensource-box'>
               <div className='opensource-year'>
                 <h3>2022</h3>
               </div>
               <div className='opensource-about'>
+                <div className='opensource-officedetails'>
+                  <div className="opensource_head">
+                    <h3>Social Summer Of Code</h3>
+                    <h4>Contributor of two react projects in SSOC, 2022</h4>
+                    <p>Jun 10 - Oct 1, 2022</p>
+                  </div>
+                  <div className="opensource_body">
+                    <p>• Contributed by using backend technologies by implementing features in live projects .</p>
+                    <p>• Worked on documentation of the projects.</p>
+                  </div>
+                </div>
                 <div className='opensource-officedetails'>
                   <div className="opensource_head">
                     <h3>Girlscript Summer of Code</h3>
@@ -59,6 +53,26 @@ const Opensource = () => {
                 </div>              
               </div>              
             </div>
+
+            <div className='opensource-box'>
+              <div className='opensource-year'>
+                <h3>2021</h3>
+              </div>
+              <div className='opensource-about'>
+                <div className='opensource-officedetails'>
+                  <div className="opensource_head">
+                    <h3>HacktoberFest</h3>
+                    <h4>Opensource Contributor of HacktoberFest</h4>
+                    <p>Oct 01 - Nov 01, 2021</p>
+                  </div>
+                  <div className="opensource_body">
+                    <p>• Successfully made 12 PRs to web applications in Hacktoberfest 2021.</p>
+                    <p>• Established universal search functionality.</p>
+                  </div>
+                </div>                
+              </div>
+            </div>
+
           </div>
           <div className="opensource-techcontent">
             <div className="opensource-techthree">

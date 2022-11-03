@@ -27,6 +27,19 @@ const Volunteering = () => {
               <div className='volunteering-about'>
                 <div className='volunteering-officedetails'>
                   <div className="volunteering_head">
+                    <h3>Technical Writer</h3>
+                    <h4>BUIDL</h4>
+                    <p>Oct 2022</p>
+                  </div>
+                  <div className="volunteering_body">
+                    <p>• Worked in writing the contents of the website.</p>
+                    <p>• Helped the team in promotional stuffs too by bringing technical clubs from different colleges.</p>
+                    <p>• Wrote blogs, twitter threads by giving a review of the event.</p>
+                    <p>• You can check the site <a href='https://buildersofweb3.xyz/ccu/'>here</a>.</p>
+                  </div>
+                </div> 
+                <div className='volunteering-officedetails'>
+                  <div className="volunteering_head">
                     <h3>Fullstack Developer</h3>
                     <h4>UEM-IEM Cyclothon</h4>
                     <p>Feb 2022</p>

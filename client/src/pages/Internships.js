@@ -160,6 +160,18 @@ const Internships = () => {
                   </div>
                 </div>
 
+                <div className='internships-officedetails'>
+                  <div className="internships_head">
+                    <h3>Frontend Engineer Intern</h3>
+                    <h4>Fluttr</h4>
+                    <p>Aug 2021 -  Dec 2021</p>
+                  </div>
+                  <div className="internships_body">
+                    <p>• Changing the layouts in the official website with some glassmorphism. </p>
+                    <p>• Debugged the toggle section, responsive section.</p>
+                    <p>• Added few animations with javascript and css animations.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>    

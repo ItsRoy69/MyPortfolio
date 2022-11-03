@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 .volunteering{
-    height: 120vh;
+    height: 160vh;
 }
 
 .volunteering_content{
@@ -27,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 590vh;
+    top: 625vh;
  }
 
 .volunteering h1::after{
@@ -42,7 +42,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(495vh);
+    transform: translateY(530vh);
     margin-left: -4vw;
 }
 
