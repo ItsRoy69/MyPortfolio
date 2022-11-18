@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 .workshop{
-    height: 75vh;
+    height: 130vh;
     background-color: #EDF2F8;
 }
 
@@ -28,7 +28,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 1355vh;
+    top: 1405vh;
  }
 
 .workshop h1::after{
@@ -43,7 +43,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(1260vh);
+    transform: translateY(1310vh);
     margin-left: -7vw;
 }
 

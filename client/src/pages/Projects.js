@@ -6,9 +6,11 @@ import Button from '@mui/material/Button';
 
 import projects1 from '../assets/projects1.png';
 import projects2 from '../assets/projects2.png';
-import projects3 from '../assets/projects1.png';
-import projects4 from '../assets/projects1.png';
-import projects5 from '../assets/projects2.png';
+import projects3 from '../assets/projects3.PNG';
+import projects4 from '../assets/projects4.PNG';
+import projects5 from '../assets/projects5.PNG';
+import projects6 from '../assets/projects6.PNG';
+import projects7 from '../assets/projects7.PNG';
 
 const Projects = () => {
   return (
@@ -93,7 +95,7 @@ const Projects = () => {
           <div className="projects_boxes">
             <div className="projects_box">
               <div className="projects_box_content">
-                <img src={projects1} alt="projects1" />
+                <img src={projects6} alt="projects1" />
               </div> 
               <div className="projects_box_contenthead"> 
                 <h4>Metaverse</h4>
@@ -102,13 +104,13 @@ const Projects = () => {
                 <p>Website using React focusing on UI/UX. </p>                
               </div> 
               <div className="projects_box_buttonbody"> 
-                <Button className='button' href="https://github.com/ItsRoy69/messenger">Link{" "}<AiOutlineArrowRight /></Button>               
+                <Button className='button' href="https://metaverse-wheat.vercel.app/">Link{" "}<AiOutlineArrowRight /></Button>               
               </div>               
             </div>  
 
             <div className="projects_box">
               <div className="projects_box_content">
-                <img src={projects2} alt="projects1" />
+                <img src={projects7} alt="projects1" />
               </div> 
               <div className="projects_box_contenthead"> 
                 <h4>Ashray</h4>
@@ -117,7 +119,7 @@ const Projects = () => {
                 <p>Website using React focusing on helping NGOs. </p>                
               </div> 
               <div className="projects_box_buttonbody"> 
-                <Button className='button' href="https://github.com/ItsRoy69/messenger">Link{" "}<AiOutlineArrowRight /></Button>               
+                <Button className='button' href="https://ashray-ngo.netlify.app/">Link{" "}<AiOutlineArrowRight /></Button>               
               </div>               
             </div>       
           </div>

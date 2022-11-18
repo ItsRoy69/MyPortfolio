@@ -40,6 +40,19 @@ const Volunteering = () => {
                 </div> 
                 <div className='volunteering-officedetails'>
                   <div className="volunteering_head">
+                    <h3>AngelHack Student Ambassador</h3>
+                    <h4>AngelHack</h4>
+                    <p>August 2022 - Present</p>
+                  </div>
+                  <div className="volunteering_body">
+                    <p>• AngelHack is a global hackathon organization.</p>
+                    <p>• Building tech and start-up communities.</p>
+                    <p>• Strengthening local ecosystems and promoting innovation.</p>
+                    <p>• Bringing together passionate and motivated individuals.</p>
+                  </div>
+                </div>
+                <div className='volunteering-officedetails'>
+                  <div className="volunteering_head">
                     <h3>Fullstack Developer</h3>
                     <h4>UEM-IEM Cyclothon</h4>
                     <p>Feb 2022</p>

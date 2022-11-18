@@ -27,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top:920vh;
+    top:970vh;
  }
 
 .blogs h1::after{
@@ -42,7 +42,7 @@
     font-size: 20px;
     padding: 0 5px;
     background-color: #fff;
-    transform: translateY(825vh);
+    transform: translateY(875vh);
     margin-left: -4vw;
 }
 
