@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-.volunteering{
-    height: 205vh;
+.freelancing{
+    height: 125vh;
 }
 
-.volunteering_content{
+.freelancing_content{
     align-items: center;
     text-align: center;
     margin-top: 5vh;
@@ -15,7 +15,7 @@
     flex-direction: row;
 }
 
-.volunteering h1::before{
+.freelancing h1::before{
     content: "";
     position: absolute;
     bottom: -30px;
@@ -30,11 +30,11 @@
     top: 705vh;
  }
 
-.volunteering h1::after{
+.freelancing h1::after{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    content: "social-work";
+    content: "side hustles";
     color: #8a2be2;
     position: absolute;
     bottom: 20px;
@@ -46,19 +46,18 @@
     margin-left: -4vw;
 }
 
-.volunteering_details{
+.freelancing_details{
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
 }
 
-.volunteering-techcontent_box img{
-    width: 40vw;
-    margin-left: 5vw;
+.freelancing-techcontent_box img{
+    width: 40vw;    
     filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.25));
 }
 
-.volunteering-year h3{
+.freelancing-year h3{
     color: #2400FF;
     font-family: 'Ubuntu';
     font-style: normal;
@@ -68,12 +67,12 @@
     width: 60px;
 }
 
-.volunteering-box{
+.freelancing-box{
     flex-direction: row;
     display: flex;
 }
 
-.volunteering_head h3{
+.freelancing_head h3{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
@@ -81,7 +80,7 @@
     line-height: 25px;
 }
 
-.volunteering_head h4{
+.freelancing_head h4{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
@@ -90,7 +89,7 @@
     color: #1C658C;
 }
 
-.volunteering_head p{
+.freelancing_head p{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
@@ -99,29 +98,29 @@
     color: #2400FF;
 }
 
-.volunteering_body p{
+.freelancing_body p{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 300;
 }
 
-.volunteering-names{
+.freelancing-names{
     width: 60vw;
+    margin-left: 5vw;
 }
 
 @media screen and (max-width: 1050px) {
 
-    .volunteering{
-        height: 50%;
+    .freelancing{
+        height: 40%;
     }
     
-    .volunteering_content{
+    .freelancing_content{
         margin-bottom: 0vh;
-        width: 100%;
      }
 
-    .volunteering_content h1::after{    
-        width: 120px;
+    .freelancing_content h1::after{    
+        width: 140px;
         position: relative;
         display: flex;
         flex: auto;
@@ -131,46 +130,49 @@
         margin-left: 0;
     }
 
-    .volunteering_content h1::before{
+    .freelancing_content h1::before{
          display: none;
      }
 
-     .volunteering_details{
+     .freelancing_details{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 80px;
      }
 
-    .volunteering-techcontent_box{
+    .freelancing-techcontent_box{
         width: 50vw;
         text-align: center;
     }
 
-    .volunteering-techcontent_box img{
+    .freelancing-techcontent_box img{
         width: 50vw;
         height: 50%;
         margin-top: 10px;
     }
     
-    .volunteering-year h3{
+    .freelancing-year h3{
         font-size: 15px;
     }
 
-    .volunteering_head h3{
+    .freelancing_head h3{
         font-size: 15px;
     }
     
-    .volunteering_head h4{
+    .freelancing_head h4{
         font-size: 14px;
     }
     
-    .volunteering_head p{        
+    .freelancing_head p{        
         font-size: 14px;
     }
     
-    .volunteering_body p{
+    .freelancing_body p{
         font-weight: 300;
         font-size: 12px;
+    }
+    .freelancing-names{
+        margin-left: 0vw;
     }
  }

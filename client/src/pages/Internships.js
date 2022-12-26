@@ -103,11 +103,36 @@ const Internships = () => {
               </div>
               <div className='internship-about'>
 
-              <div className='internships-officedetails'>
+                <div className='internships-officedetails'>
+                  <div className="internships_head">
+                    <h3>Technical Lead</h3>
+                    <h4>Productefy</h4>
+                    <p>Oct 2022 - Present</p>
+                  </div>
+                  <div className="internships_body">
+                    <p>• Working with a team of junior developers in building a product from scratch. </p>                  </div>
+                </div>
+
+                <div className='internships-officedetails'>
+                  <div className="internships_head">
+                    <h3>Developer Advocate Intern</h3>
+                    <h4>Keploy</h4>
+                    <p>Dec 2022 - Present</p>
+                  </div>
+                  <div className="internships_body">
+                    <p>• Created a comprehensive database of colleges, including information on admissions requirements, programs and majors, student services, and success rates.</p>
+                    <p>• Developed and maintained high-quality projects on Github, earning at least 50 stars from users.</p>
+                    <p>• Created interesting and engaging content for social media platforms, targeting API and testing professionals and enthusiasts.</p>
+                    <p>• Wrote and published a blog on Medium, covering a variety of topics related to API and testing.</p>
+                    <p>• Promoted Keploy organically to relevant communities and forums, increasing the product's visibility and attracting new leads.</p>
+                  </div>
+                </div>
+
+                <div className='internships-officedetails'>
                   <div className="internships_head">
                     <h3>Software Engineer Intern</h3>
                     <h4>Sckilled</h4>
-                    <p>Aug 2022 - Present</p>
+                    <p>Aug 2022 - Dec 2022</p>
                   </div>
                   <div className="internships_body">
                     <p>• Working on reframing the official website with more features to meet industry and company standards for SEO and accessibility which is visited by 100+ students.</p>

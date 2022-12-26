@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/About.css";
 
 import aboutimg from '../assets/about.png';
-import Typical from 'react-typical';
+import { TypeAnimation } from 'react-type-animation';
 
 const About = () => {
   return (
@@ -18,11 +18,11 @@ const About = () => {
             <div className="about_padding">
               <div className="about-content">              
                 <h2>Hi! 👋 I'm Jyotirmoy and I'm a{' '}
-                  <Typical 
+                  <TypeAnimation
                     loop={Infinity}
                     className="about-text"
                     wrapper="b"
-                    steps={[
+                    sequence={[
                       'Web Developer', 1000,
                       'UI/UX Designer', 1000,
                       'Freelancer', 1000,

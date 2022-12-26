@@ -27,7 +27,7 @@
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 500;
-    top: 1540vh;
+    top: 1615vh;
  }
 
 .contact h1::after{
@@ -42,7 +42,7 @@
     font-size: 20px;
     padding: 0 5px;
     background: #fff;
-    transform: translateY(1436vh);
+    transform: translateY(1511vh);
     margin-left: -6.1vw;
 }
 

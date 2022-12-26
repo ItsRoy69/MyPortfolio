@@ -7,6 +7,7 @@ import About from './pages/About';
 import Education from './pages/Education';
 import Skills from './pages/Skills';
 import Internships from './pages/Internships';
+import Freelancing from './pages/Freelancing';
 import Volunteering from './pages/Volunteering';
 import Opensource from './pages/Opensource';
 import Blogs from './pages/Blogs';
@@ -15,7 +16,6 @@ import Projects from './pages/Projects';
 import Workshop from './pages/Workshop';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-
 
 const Home = () => {
   return (
@@ -27,6 +27,7 @@ const Home = () => {
         <Education />
         <Skills />
         <Internships />
+        {/* <Freelancing /> */}
         <Volunteering />
         <Opensource />
         <Blogs />

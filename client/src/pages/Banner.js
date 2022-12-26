@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/Banner.css";
-import Typical from 'react-typical';
-
+import { TypeAnimation } from 'react-type-animation';
 import bannerimg from '../assets/bannerman.png';
 
 const Banner = () => {
@@ -12,11 +11,11 @@ const Banner = () => {
           <h3>Hello, I am</h3>
           <h1>Jyotirmoy Roy</h1>            
           <h4>a{' '}
-            <Typical 
+            <TypeAnimation
               loop={Infinity}
               className="banner-text"
               wrapper="b"
-              steps={[
+              sequence={[
                 'Web Developer', 1000,
                 'UI/UX Designer', 1000,
                 'Freelancer', 1000,
