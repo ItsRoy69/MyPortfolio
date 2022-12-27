@@ -20,6 +20,13 @@ const Achievements = () => {
 
                 <div className='achievements-officedetails'>
                   <div className="achievements_head">
+                    <h3>Xiaomi India</h3>
+                    <h4>Came among top 10 performer in Ode2Code2.0 competition among 8450 registrations</h4>
+                    <p>Jul 11 - Nov 11, 2022</p>
+                  </div>
+                </div>
+                <div className='achievements-officedetails'>
+                  <div className="achievements_head">
                     <h3>NIT Rourkela</h3>
                     <h4>1st Prize In HackOdisha 2.0 for use of Twilio</h4>
                     <p>Sep 10 - 11, 2022</p>
