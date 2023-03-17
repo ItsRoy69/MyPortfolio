@@ -46,7 +46,7 @@ const Skills = () => {
                 <h4>Programmer</h4>
               </div>
               <div className="skills_box_contentbody"> 
-                <p>I’m also a programmer who solves dsa related problems everyday . </p>
+                <p>I'm also a programmer who solves DSA-related problems every day. </p>
               </div>  
             </div>  
             <div className="skills_box">

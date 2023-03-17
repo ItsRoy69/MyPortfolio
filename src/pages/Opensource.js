@@ -85,41 +85,8 @@ with Keploy’s requirements and standards.
                       repositories in the Community Handbook project.{" "}
                     </p>
                   </div>
-                </div>
-                <div className="opensource-officedetails">
-                  <div className="opensource_head">
-                    <h3>Girlscript Summer of Code</h3>
-                    <h4>Mentor of two react projects in GSSOC, 2022</h4>
-                    <p>March 01 - July 05, 2022</p>
-                  </div>
-                  <div className="opensource_body">
-                    <p>
-                      • Mentoring 200+ students to implement features in live
-                      projects .
-                    </p>
-                    <p>• Guiding students about Opensource.</p>
-                  </div>
-                </div>
-                <div className="opensource-officedetails">
-                  <div className="opensource_head">
-                    <h3>Diversion</h3>
-                    <h4>
-                      Mentor of one react project in Diversion, 2022 organised
-                      by IEM
-                    </h4>
-                    <p>Jan 01 - April 05, 2022</p>
-                  </div>
-                  <div className="opensource_body">
-                    <p>
-                      • Mentoring 70+ students on how to work on opensource
-                      projects for the event DIVERSION.
-                    </p>
-                    <p>
-                      • Mentored students to implement features in Kubernetes,
-                      Web & Middleware tech.
-                    </p>
-                  </div>
-                </div>
+                </div>                
+                
               </div>
             </div>
 
