@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+.internships {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.internships h4 {
+  font-family: "Segoe UI", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: inherit;
+  font-size: 40px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.title_down {
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  position: static;
+}
+
+.line {
+  background-color: #000;
+  height: 3px;
+  width: 200px;
+  position: relative;
+}
+
+.title_after {
+  color: #2400ff;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  position: absolute;
+  background-color: #fff;
+}
+
+.internships_details {
+  flex-direction: row;
+  display: flex;
+  margin-top: 10vh;
+}
+
+.internships-techcontent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 50vw;
+  align-items: center;
+}
+
+.internships-content {
+  width: 40vw;
+}
+
+.internships-techthree {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.internships-techcontent_box {
+  width: 70px;
+  height: 70px;
+  margin-top: 10vh;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.internships-techcontent_box:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+  border-radius: 100%;
+}
+
+.internships-techcontent_box img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.internships-box {
+  flex-direction: row;
+  display: flex;
+}
+
+.internships-names {
+  width: 60%;
+}
+
+.internships-year h3 {
+  color: #2400ff;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  width: 100px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.internships_head h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: start;
+  margin-block-start: 0;
+  margin-block-end: 0.4em;
+}
+
+.internships_head h4 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  color: #1c658c;
+  text-align: start;
+}
+
+.internships_head p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 15px;
+  color: #2400ff;
+  text-align: start;
+  margin-block-end: 1.4em;
+}
+
+.internships_body p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  text-align: start;
+}

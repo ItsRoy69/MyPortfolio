@@ -1,0 +1,56 @@
+.footer{
+    text-align: center;
+    background-color: #2400ff;
+    align-items: center;
+    height: 4vh;
+}
+
+.footer h4{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    color: #EDF2F8;
+    font-size: 15px;
+}
+
+.links {
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    z-index: 1;
+    background: #000000;
+    border-radius: 4px;
+    transition: all 0.4s;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .links .logos {
+    color: #fff;
+    font-size: 50px;
+  }
+  
+  .links:hover {
+    background: #39393d;
+    color: #fff;
+  }
+
+  @media screen and (max-width: 1050px) {
+
+    .links {
+        right: 20px;
+        bottom: 50px;
+        z-index: 1;
+        background: #000000;
+        border-radius: 4px;
+        transition: all 0.4s;
+        text-align: center;
+        height: 25px;
+        width: 25px;
+    }
+
+    .links .logos {
+        font-size: 20px;
+    }
+}

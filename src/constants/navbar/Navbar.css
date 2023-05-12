@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar-logo h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  color: #2400ff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.navbar-logo h1:hover {
+  color: #000000;
+}
+
+.navbar-logo h1 span {
+  color: #9acd32;
+  transition: all 0.3s ease;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+.navbar-link {
+  color: #2400ff;
+  padding: 10px 20px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  font-size: 20px;
+  line-height: 40px;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #9acd32;
+}
+
+.navbar-dropdown {
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  z-index: 4;
+}
+
+.navbar-dropdown-item {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-dropdown-item a {
+  color: #2400ff;
+  padding: 10px 20px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  font-size: 20px;
+  line-height: 40px;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-dropdown-item a:hover {
+  color: #9acd32;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .navbar-item {
+    position: relative;
+    margin: 0;
+  }
+
+  .navbar-link {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-dropdown {
+    display: block !important;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  .navbar-dropdown-item {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .navbar-dropdown-item a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .navbar-toggle {
+    background-color: #080808;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: block !important;
+    float: right;
+    padding: 6px 7px;
+    position: relative;
+    margin: 27px;
+  }
+
+  .navbar-toggle svg {
+    font-size: 27px;
+  }
+
+  .navbar-toggle:hover {
+    background-color: #9acd32;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-menu {
+    display: flex !important;
+    z-index: 3;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar-logo {
+    z-index: 1;
+  }
+
+  .navbar-toggle {
+    display: block;
+    float: right;
+    z-index: 6;
+  }
+
+  .navbar-menu.true {
+    display: block !important;
+    left: 0;
+    padding-bottom: 17px;
+    padding-top: 57px;
+    position: absolute;
+    right: 0;
+    z-index: 4;
+    background-color: #d8f1ff;
+  }
+
+  .navbar-toggle svg {
+    font-size: 27px;
+  }
+
+  .navbar-toggle:hover {
+    background-color: #9acd32;
+  }
+}
