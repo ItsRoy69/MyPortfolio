@@ -243,3 +243,10 @@
   inset: 2px;
   background: #272822;
 }
+
+@media screen and (max-width: 450px) {
+  .contact_name input, .contact_mailid input, .contact_message textarea {
+    width: 300px;
+  }
+  
+}

@@ -124,3 +124,43 @@
   width: 40vw;
   filter: drop-shadow(0 10px 4px rgba(0, 0, 0, 0.25));
 }
+
+@media screen and (max-width: 1000px) {
+  .opensource_content{
+    flex-direction: column;
+  }
+
+  .opensource-year h3 {
+    width: 80px;
+  }
+
+  .opensource_head h3 {
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .opensource_head h4 {
+    font-weight: 280;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  
+  .opensource_head p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+  }
+  
+  .opensource_body p {
+    font-weight: 200;
+  }
+
+  .opensource_right {
+    width: 100%;
+  }
+  
+  .opensource_right img {
+    width: 80%;
+    padding: 20px;
+  }
+}
