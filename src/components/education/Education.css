@@ -123,3 +123,56 @@
   color: #2400ff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+@media screen and (max-width: 1000px) {
+  .education_content {
+    padding: 20px;
+  }
+
+  .engineering_right h2 {    
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .engineeringimg {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .education_right {
+    display: none;
+  }
+
+  .education_left {
+    width: 100%;
+  }
+  .college h2 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 300;
+  }
+
+  .college span {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .college h3 {
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .engineeringimg {
+    display: none;
+  }
+
+  .engineering_details {
+    width: auto;
+    padding: 20px;
+  }
+
+  .engineering {
+    justify-content: start;
+}
+}

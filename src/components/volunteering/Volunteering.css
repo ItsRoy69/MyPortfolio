@@ -122,3 +122,44 @@
   font-weight: 300;
   text-align: start;
 }
+
+@media screen and (max-width: 1000px) {
+  .volunteering-techcontent{
+    width: auto;
+  }
+
+  .volunteering-year h3 {
+    width: 80px;
+  }
+
+  .volunteering_head h3 {
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .volunteering_head h4 {
+    font-weight: 280;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  
+  .volunteering_head p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+  }
+  
+  .volunteering_body p {
+    font-weight: 200;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .volunteering-techcontent {
+    display: none
+  }
+
+  .volunteering-names {
+    width: 100%;
+  }
+}

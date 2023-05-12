@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-direction: row;
   height: 95vh;
   background-color: #edf2f8;
   background-image: url(../../assets/background.png);
@@ -48,4 +49,45 @@
 
 .banner-text {
   color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+  .banner {
+    background-image: none;
+    flex-direction: column-reverse;
+    height: 80vh;
+  }
+
+
+  .banner_left h2 {
+    font-weight: 300;
+    font-size: 30px;
+  }
+  
+  .banner_left h1 {
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  .banner_left h3 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 0vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+  .banner {
+    height: 90vh;
+  }
+
+  .banner_right img{
+    width: 300px;
+  }
+
+  .banner_left {
+    width: 80%;
+  }
+
 }
