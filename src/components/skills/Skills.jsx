@@ -22,11 +22,11 @@ const Skills = () => {
               <img src={skills1} alt="skills1" />
             </div>
             <div className="skills_box_contenthead">
-              <h4>Fullstack Developer</h4>
+              <h4>Software Developer</h4>
             </div>
             <div className="skills_box_contentbody">
               <p>
-                I make the website look cool with awesome codes based on
+                I make the softwares look cool with awesome codes based on
                 researched UI/UX.{" "}
               </p>
             </div>

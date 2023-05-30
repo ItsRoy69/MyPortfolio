@@ -3,7 +3,6 @@ import { TypeAnimation } from 'react-type-animation';
 import "./Banner.css"
 import banner from '../../assets/banner.png'
 
-
 const Banner = () => {
 
   return (
@@ -18,7 +17,7 @@ const Banner = () => {
               wrapper="b"
               repeat={Infinity}
               sequence={[
-                'Web Developer', 1000,
+                'Software Developer', 1000,
                 'UI/UX Designer', 1000,
                 'Freelancer', 1000,
                 'Coder', 1000,

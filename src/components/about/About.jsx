@@ -24,7 +24,7 @@ const About = () => {
               wrapper="b"
               repeat={Infinity}
               sequence={[
-                'Web Developer', 1000,
+                'Software Developer', 1000,
                 'UI/UX Designer', 1000,
                 'Freelancer', 1000,
                 'Coder', 1000,
@@ -35,7 +35,7 @@ const About = () => {
           </h5>
           <p>I am a B.tech undergrad in Computer Science 
             from University of Engineering and Management, Kolkata who
-             is interested in Web Development, UI/UX Design, and Coding.</p>
+             is interested in Software Development, UI/UX Design, and Coding.</p>
 
           <p>Thanks for visiting my website!</p>
 

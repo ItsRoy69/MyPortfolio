@@ -123,6 +123,21 @@ const Internships = () => {
                   </p>
                 </div>
               </div>
+              <div className="internships-officedetails">
+                <div className="internships_head">
+                  <h3>Freelance Developer</h3>
+                  <h4>IATSAT</h4>
+                  <p>Jan 2023</p>
+                </div>
+                <div className="internships_body">
+                  <p>
+                    • Worked on the application development of the orgnisation.{" "}
+                  </p>{" "}
+                  <p>
+                    • Used techstacks like React Native{" "}
+                  </p>{" "}
+                </div>
+              </div>
             </div>
           </div>
           <div className="internships-box">
@@ -130,6 +145,18 @@ const Internships = () => {
               <h3>2022</h3>
             </div>
             <div className="internship-about">
+            `<div className="internships-officedetails">
+                <div className="internships_head">
+                  <h3>Freelance Developer</h3>
+                  <h4>AirBots Aerospace Private Limited</h4>
+                  <p>Dec 2022 - Jan 2023 </p>
+                </div>
+                <div className="internships_body">
+                  <p>
+                    • Worked on reframing the site from UI/UX to development.{" "}
+                  </p>{" "}
+                </div>
+              </div>
               <div className="internships-officedetails">
                 <div className="internships_head">
                   <h3>Technical Lead</h3>

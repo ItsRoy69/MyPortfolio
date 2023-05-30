@@ -7,6 +7,8 @@ import workshop4 from "../../assets/workshop4.jpg";
 import workshop5 from "../../assets/workshop5.jpg";
 import workshop6 from "../../assets/workshop6.jpg";
 import workshop7 from "../../assets/workshop7.jpg";
+import workshop8 from "../../assets/workshop8.png";
+import workshop9 from "../../assets/workshop9.jpeg";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from "@mui/material/Button";
@@ -22,6 +24,44 @@ const Workshops = () => {
         </div>{" "}
         <div className="workshops_content">
           <div className="workshops_boxes">
+          <div className="workshops_box">
+              <div className="workshops_box_content">
+                <img src={workshop8} alt="workshops1" />
+              </div>
+              <div className="workshops_box_contenthead">
+                <h4>Organized Ureckathon</h4>
+              </div>
+              <div className="workshops_box_contentbody">
+                <p>Organized Ureckathon 3.0, a hackathon which recieved 200+ teams, and over 100 projects.</p>
+                <div className="workshops_box_buttonbody">
+                  <Button
+                    className="button"
+                    href="https://www.linkedin.com/feed/update/urn:li:activity:7030418470265659392/"
+                  >
+                    More <AiOutlineArrowRight />
+                  </Button>
+                </div>
+              </div>
+            </div>
+            <div className="workshops_box">
+              <div className="workshops_box_content">
+                <img src={workshop9} alt="workshops1" />
+              </div>
+              <div className="workshops_box_contenthead">
+                <h4>Lead organizer Spyder 5.0</h4>
+              </div>
+              <div className="workshops_box_contentbody">
+                <p>Organized an offline event, Spyder 5.0, with 100+ participants </p>
+                <div className="workshops_box_buttonbody">
+                  <Button
+                    className="button"
+                    href="https://www.linkedin.com/posts/jyotirmoyroy69_first-time-organized-a-nationwide-hackathon-activity-7038060026879483904-r4GQ?utm_source=share"
+                  >
+                    More <AiOutlineArrowRight />
+                  </Button>
+                </div>
+              </div>
+            </div>
             <div className="workshops_box">
               <div className="workshops_box_content">
                 <img src={workshop1} alt="workshops1" />

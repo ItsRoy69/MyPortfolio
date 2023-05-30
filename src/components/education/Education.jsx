@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Education.css";
 import useSound from "use-sound";
 import education from "../../assets/education.png";
@@ -7,7 +7,7 @@ import audio from "../../assets/audio.mp3";
 
 const Education = () => {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [play] = useSound(audio);
+  const [play, { duration }] = useSound(audio);
 
   const handleClick = () => {
     if (!isPlaying) {
@@ -15,6 +15,14 @@ const Education = () => {
       setIsPlaying(true);
     }
   };
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setIsPlaying(false);
+    }, duration);
+
+    return () => clearTimeout(timeoutId);
+  }, [isPlaying, duration]);
 
   return (
     <div className="education" id="educationme">

@@ -7,6 +7,8 @@ import projects4 from "../../assets/projects4.png";
 import projects5 from "../../assets/projects5.png";
 import projects6 from "../../assets/projects6.png";
 import projects7 from "../../assets/projects7.png";
+import projects8 from "../../assets/projects8.png";
+import projects9 from "../../assets/projects9.png";
 
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Button from "@mui/material/Button";
@@ -69,7 +71,7 @@ const Projects = () => {
                 <h4>AnyHelper</h4>
               </div>
               <div className="projects_box_contentbody">
-                <p>A website that'll help when we need. </p>
+                <p>A website that'll help when we need.</p>
               </div>
               <div className="projects_box_buttonbody">
                 <Button
@@ -151,6 +153,44 @@ const Projects = () => {
                 <Button
                   className="button"
                   href="https://ashray-ngo.netlify.app/"
+                >
+                  Link <AiOutlineArrowRight />
+                </Button>
+              </div>
+            </div>
+            <div className="projects_box">
+              <div className="projects_box_content">
+                <img src={projects8} alt="projects5" />
+              </div>
+              <div className="projects_box_contenthead">
+                <h4>ManPloyee</h4>
+              </div>
+              <div className="projects_box_contentbody">
+                <p>Application for employee management within organizations.</p>
+              </div>
+              <div className="projects_box_buttonbody">
+                <Button
+                  className="button"
+                  href="https://github.com/ItsRoy69/ManPloyee"
+                >
+                  Link <AiOutlineArrowRight />
+                </Button>
+              </div>
+            </div>
+            <div className="projects_box">
+              <div className="projects_box_content">
+                <img src={projects9} alt="projects5" />
+              </div>
+              <div className="projects_box_contenthead">
+                <h4>MedHelp</h4>
+              </div>
+              <div className="projects_box_contentbody">
+                <p>Get some medical assistance which can be dealt with by staying at home.</p>
+              </div>
+              <div className="projects_box_buttonbody">
+                <Button
+                  className="button"
+                  href="https://itsroy69.github.io/MedHelp/"
                 >
                   Link <AiOutlineArrowRight />
                 </Button>
