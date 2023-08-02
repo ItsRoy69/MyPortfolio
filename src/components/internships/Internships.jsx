@@ -145,7 +145,7 @@ const Internships = () => {
               <h3>2022</h3>
             </div>
             <div className="internship-about">
-            `<div className="internships-officedetails">
+            <div className="internships-officedetails">
                 <div className="internships_head">
                   <h3>Freelance Developer</h3>
                   <h4>AirBots Aerospace Private Limited</h4>

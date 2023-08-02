@@ -38,6 +38,17 @@ const Opensource = () => {
                 </div>
                 <div className="opensource-officedetails">
                   <div className="opensource_head">
+                    <h3>Civo</h3>
+                    <h4>Contributor</h4>
+                  </div>
+                  <div className="opensource_body">
+                    <p>
+                      • Made some changes and corrected some bugs on CI/CD pipeline.
+                    </p>
+                  </div>
+                </div>
+                <div className="opensource-officedetails">
+                  <div className="opensource_head">
                     <h3>MindsDB</h3>
                     <h4>Contributor</h4>
                   </div>

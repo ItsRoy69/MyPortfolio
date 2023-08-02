@@ -15,6 +15,22 @@ const Achievements = () => {
           <div className="achievements_left">
             <div className="achievements-box">
               <div className="achievements-year">
+                <h3>2023</h3>
+              </div>
+              <div className="achievements-about">
+                <div className="achievements-officedetails">
+                  <div className="achievements_head">
+                    <h3>Hack4Bengal 2.0</h3>
+                    <h4>
+                      Got invited to judge as well as mentor the East India's Largest Hackathon
+                    </h4>
+                    <p>Jul 9 - 10</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="achievements-box">
+              <div className="achievements-year">
                 <h3>2022</h3>
               </div>
               <div className="achievements-about">
