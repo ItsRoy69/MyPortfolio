@@ -20,9 +20,20 @@ const Achievements = () => {
               <div className="achievements-about">
                 <div className="achievements-officedetails">
                   <div className="achievements_head">
+                    <h3>Algorand Foundation</h3>
+                    <h4>
+                      Got selected among the top 25 pitchers in a pitching
+                      competition organised by Algorand in India.
+                    </h4>
+                    <p>Oct 9 - 10</p>
+                  </div>
+                </div>
+                <div className="achievements-officedetails">
+                  <div className="achievements_head">
                     <h3>Hack4Bengal 2.0</h3>
                     <h4>
-                      Got invited to judge as well as mentor the East India's Largest Hackathon
+                      Got invited to judge as well as mentor the East India's
+                      Largest Hackathon
                     </h4>
                     <p>Jul 9 - 10</p>
                   </div>

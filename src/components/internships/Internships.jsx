@@ -108,6 +108,33 @@ const Internships = () => {
             <div className="internship-about">
               <div className="internships-officedetails">
                 <div className="internships_head">
+                  <h3>Software Developer Intern</h3>
+                  <h4>Pephub</h4>
+                  <p>Jun 2023 – Sep 2023</p>
+                </div>
+                <div className="internships_body">
+                  <p>
+                    • Developed a multi-level role-based authentication system
+                    with real-time survey and CMS support for third-party
+                    clients at Pephub.
+                  </p>
+                  <p>
+                    • Integrated Stripe Payment gateway & managed AWS
+                    infrastructure to host the apps.
+                  </p>
+                  <p>
+                    • Collaborated with Google services to optimize loading
+                    time, achieving a significant 60% improvement.
+                  </p>
+                  <p>
+                    • Worked with technologies like ReactJS, MongoDB, ExpressJS,
+                    AWS
+                  </p>
+                </div>
+              </div>
+
+              <div className="internships-officedetails">
+                <div className="internships_head">
                   <h3>Developer Advocate</h3>
                   <h4>Keploy</h4>
                   <p>Feb 2023 - May 2023</p>
@@ -120,6 +147,46 @@ const Internships = () => {
                   <p>
                     • Worked with testing frameworks like Mocha, JUnit &
                     Selenium.
+                  </p>
+                  <p>
+                    • Collaborated with the student developer to define and
+                    refine project goals and objectives, ensuring alignment with
+                    Keploy’s requirements and standards as a Google Summer of
+                    Code’23 Mentor.
+                  </p>
+                  <p>
+                    • Addressed bugs and enhanced the GitHub site of Keploy,
+                    optimized CI/CD pipelines, redesigned the Keploy Fellowship
+                    with a superior UI, achieving 200+ daily click rates within
+                    the fellowship timeline.
+                  </p>
+                  <p>
+                    • Created a comprehensive database of colleges, including
+                    information on admissions requirements, programs and majors,
+                    student services, and success rates.
+                  </p>
+                </div>
+              </div>
+              <div className="internships-officedetails">
+                <div className="internships_head">
+                  <h3>Software Engineer</h3>
+                  <h4>IRL_amigo</h4>
+                  <p>Oct 2022 - Aug 2023</p>
+                </div>
+                <div className="internships_body">
+                  <p>
+                    • Worked with a team of junior developers in building a
+                    product from scratch.{" "}
+                  </p>{" "}
+                  <p>• Built the official website of IRLAmigo.</p>
+                  <p>
+                    • Used techstacks like HTML, PHP, Javascript, ReactJS, CSS
+                    and SCSS{" "}
+                  </p>{" "}
+                  <p>
+                    • Developed a third party application for their clients
+                    which is a multi level role based auth system using RBAC
+                    with real time survey and cms support .
                   </p>
                 </div>
               </div>
@@ -134,8 +201,15 @@ const Internships = () => {
                     • Worked on the application development of the orgnisation.{" "}
                   </p>{" "}
                   <p>
-                    • Used techstacks like React Native{" "}
-                  </p>{" "}
+                    • Implemented geo-location plugin into the Customer
+                    Application for getting the delivery geolocation.
+                  </p>
+                  <p>
+                    • Integrated features like Location Services, User
+                    Authentication, Instant Messaging, Instant Messaging and
+                    Open Source APIs.
+                  </p>
+                  <p>• Used techstacks like React Native </p>{" "}
                 </div>
               </div>
             </div>
@@ -145,7 +219,7 @@ const Internships = () => {
               <h3>2022</h3>
             </div>
             <div className="internship-about">
-            <div className="internships-officedetails">
+              <div className="internships-officedetails">
                 <div className="internships_head">
                   <h3>Freelance Developer</h3>
                   <h4>AirBots Aerospace Private Limited</h4>
@@ -153,21 +227,17 @@ const Internships = () => {
                 </div>
                 <div className="internships_body">
                   <p>
-                    • Worked on reframing the site from UI/UX to development.{" "}
+                    • Reframed and redesigned Airbots Aerospace's official
+                    website using Figma.{" "}
                   </p>{" "}
-                </div>
-              </div>
-              <div className="internships-officedetails">
-                <div className="internships_head">
-                  <h3>Technical Lead</h3>
-                  <h4>Productefy</h4>
-                  <p>Oct 2022 - Present</p>
-                </div>
-                <div className="internships_body">
                   <p>
-                    • Working with a team of junior developers in building a
-                    product from scratch.{" "}
-                  </p>{" "}
+                    • Rebuilt the website from scratch using React.js, Node.js,
+                    Express.js, and CSS.
+                  </p>
+                  <p>
+                    • Integrated emailjs for direct client communication and
+                    worked on deploying the website through a CI/CD pipeline.
+                  </p>
                 </div>
               </div>
 
@@ -219,6 +289,14 @@ const Internships = () => {
                     to provide additional perspective and catch previously
                     missed errors.
                   </p>
+                  <p>
+                    • Added 15 new features to the site, maintaining graphic
+                    standards adherence for Enriched user engagement.
+                  </p>
+                  <p>
+                    • Worked on MVC architecture, delivering a better system
+                    performance boost & faster response times.
+                  </p>
                 </div>
               </div>
 
@@ -267,18 +345,21 @@ const Internships = () => {
                 </div>
                 <div className="internships_body">
                   <p>
-                    • Developed a fullstack Diabetes Prediction website using
-                    Microsoft Azure.
+                    • Deployed a fullstack website using Microsoft Azure to
+                    automatically check for diabetes in users’ bodies.
                   </p>
                   <p>
                     • Used a techstacks like Kaggle, Flask and Python to execute
                     the desired website.
                   </p>
                   <p>
-                    • Tested the healthcare issue and implemented in the website
-                    from scratch.
+                    • Created and tested healthcare solutions, implementing them
+                    from scratch on the website.
                   </p>
-                  <p>• Clean Code focusing more on Frontend Technologies.</p>
+                  <p>
+                    • Designed and implemented content insights with clean and
+                    organized code, focusing on frontend technologies.
+                  </p>
                 </div>
               </div>
 
@@ -290,16 +371,16 @@ const Internships = () => {
                 </div>
                 <div className="internships_body">
                   <p>
-                    • Developed the bank transaction site using the techstacks
-                    mentioned from scratch.
+                    • Built the bank transaction section from scratch using
+                    Html, Css, Javascript, NodeJs, MongDB and ExpressJs.
                   </p>
                   <p>
                     • Written Clean Code, Increased Code coverage, Maintained
                     Cognitive Complexity of the project.
                   </p>
                   <p>
-                    • Coded on the mentioned technology stack and some projects
-                    of several Service area sectors.
+                    • Worked on various projects across different service area
+                    sectors using the specified tech stacks.
                   </p>
                 </div>
               </div>
@@ -318,12 +399,16 @@ const Internships = () => {
                 </div>
                 <div className="internships_body">
                   <p>
-                    • Changing the layouts in the official website with some
-                    glassmorphism.{" "}
+                    • Improved the layout and design of the official website,
+                    incorporating glassmorphism elements.{" "}
                   </p>
-                  <p>• Debugged the toggle section, responsive section.</p>
                   <p>
-                    • Added few animations with javascript and css animations.
+                    • Debugged and resolved issues with the toggle and
+                    responsive sections of the website.
+                  </p>
+                  <p>
+                    • Enhanced the website’s user experience with the
+                    implementation of JavaScript and CSS animations.
                   </p>
                 </div>
               </div>
